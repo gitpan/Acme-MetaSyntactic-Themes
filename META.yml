@@ -1,0 +1,324 @@
+---
+abstract: 'The original set of Acme::MetaSyntactic themes'
+author:
+  - 'Philippe Bruhat (BooK) <book@cpan.org>'
+build_requires:
+  Test::MetaSyntactic: 1.000
+  Test::More: 0.94
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Acme-MetaSyntactic-Themes
+provides:
+  Acme::MetaSyntactic::abba:
+    file: lib/Acme/MetaSyntactic/abba.pm
+    version: 1.000
+  Acme::MetaSyntactic::alphabet:
+    file: lib/Acme/MetaSyntactic/alphabet.pm
+    version: 1.000
+  Acme::MetaSyntactic::amber:
+    file: lib/Acme/MetaSyntactic/amber.pm
+    version: 1.000
+  Acme::MetaSyntactic::antlers:
+    file: lib/Acme/MetaSyntactic/antlers.pm
+    version: 1.000
+  Acme::MetaSyntactic::barbapapa:
+    file: lib/Acme/MetaSyntactic/barbapapa.pm
+    version: 1.000
+  Acme::MetaSyntactic::barbarella:
+    file: lib/Acme/MetaSyntactic/barbarella.pm
+    version: 1.000
+  Acme::MetaSyntactic::batman:
+    file: lib/Acme/MetaSyntactic/batman.pm
+    version: 1.000
+  Acme::MetaSyntactic::booze:
+    file: lib/Acme/MetaSyntactic/booze.pm
+    version: 1.000
+  Acme::MetaSyntactic::browser:
+    file: lib/Acme/MetaSyntactic/browser.pm
+    version: 1.000
+  Acme::MetaSyntactic::buffy:
+    file: lib/Acme/MetaSyntactic/buffy.pm
+    version: 1.000
+  Acme::MetaSyntactic::chess:
+    file: lib/Acme/MetaSyntactic/chess.pm
+    version: 1.000
+  Acme::MetaSyntactic::colors:
+    file: lib/Acme/MetaSyntactic/colors.pm
+    version: 1.000
+  Acme::MetaSyntactic::colours:
+    file: lib/Acme/MetaSyntactic/colours.pm
+    version: 1.000
+  Acme::MetaSyntactic::constellations:
+    file: lib/Acme/MetaSyntactic/constellations.pm
+    version: 1.000
+  Acme::MetaSyntactic::contrade:
+    file: lib/Acme/MetaSyntactic/contrade.pm
+    version: 1.000
+  Acme::MetaSyntactic::counting_rhyme:
+    file: lib/Acme/MetaSyntactic/counting_rhyme.pm
+    version: 1.000
+  Acme::MetaSyntactic::crypto:
+    file: lib/Acme/MetaSyntactic/crypto.pm
+    version: 1.000
+  Acme::MetaSyntactic::currency:
+    file: lib/Acme/MetaSyntactic/currency.pm
+    version: 1.000
+  Acme::MetaSyntactic::dancers:
+    file: lib/Acme/MetaSyntactic/dancers.pm
+    version: 1.000
+  Acme::MetaSyntactic::debian:
+    file: lib/Acme/MetaSyntactic/debian.pm
+    version: 1.000
+  Acme::MetaSyntactic::dilbert:
+    file: lib/Acme/MetaSyntactic/dilbert.pm
+    version: 1.000
+  Acme::MetaSyntactic::discworld:
+    file: lib/Acme/MetaSyntactic/discworld.pm
+    version: 1.000
+  Acme::MetaSyntactic::donmartin:
+    file: lib/Acme/MetaSyntactic/donmartin.pm
+    version: 1.000
+  Acme::MetaSyntactic::dwarves:
+    file: lib/Acme/MetaSyntactic/dwarves.pm
+    version: 1.000
+  Acme::MetaSyntactic::elements:
+    file: lib/Acme/MetaSyntactic/elements.pm
+    version: 1.000
+  Acme::MetaSyntactic::facecards:
+    file: lib/Acme/MetaSyntactic/facecards.pm
+    version: 1.000
+  Acme::MetaSyntactic::flintstones:
+    file: lib/Acme/MetaSyntactic/flintstones.pm
+    version: 1.000
+  Acme::MetaSyntactic::french_presidents:
+    file: lib/Acme/MetaSyntactic/french_presidents.pm
+    version: 1.000
+  Acme::MetaSyntactic::garbage:
+    file: lib/Acme/MetaSyntactic/garbage.pm
+    version: 1.000
+  Acme::MetaSyntactic::garfield:
+    file: lib/Acme/MetaSyntactic/garfield.pm
+    version: 1.000
+  Acme::MetaSyntactic::gems:
+    file: lib/Acme/MetaSyntactic/gems.pm
+    version: 1.000
+  Acme::MetaSyntactic::good_omens:
+    file: lib/Acme/MetaSyntactic/good_omens.pm
+    version: 1.000
+  Acme::MetaSyntactic::groo:
+    file: lib/Acme/MetaSyntactic/groo.pm
+    version: 1.000
+  Acme::MetaSyntactic::haddock:
+    file: lib/Acme/MetaSyntactic/haddock.pm
+    version: 1.000
+  Acme::MetaSyntactic::hhgg:
+    file: lib/Acme/MetaSyntactic/hhgg.pm
+    version: 1.000
+  Acme::MetaSyntactic::invasions:
+    file: lib/Acme/MetaSyntactic/invasions.pm
+    version: 1.000
+  Acme::MetaSyntactic::jabberwocky:
+    file: lib/Acme/MetaSyntactic/jabberwocky.pm
+    version: 1.000
+  Acme::MetaSyntactic::jamesbond:
+    file: lib/Acme/MetaSyntactic/jamesbond.pm
+    version: 1.000
+  Acme::MetaSyntactic::jerkcity:
+    file: lib/Acme/MetaSyntactic/jerkcity.pm
+    version: 1.000
+  Acme::MetaSyntactic::linux:
+    file: lib/Acme/MetaSyntactic/linux.pm
+    version: 1.000
+  Acme::MetaSyntactic::loremipsum:
+    file: lib/Acme/MetaSyntactic/loremipsum.pm
+    version: 1.000
+  Acme::MetaSyntactic::lotr:
+    file: lib/Acme/MetaSyntactic/lotr.pm
+    version: 1.000
+  Acme::MetaSyntactic::magic8ball:
+    file: lib/Acme/MetaSyntactic/magic8ball.pm
+    version: 1.000
+  Acme::MetaSyntactic::magicroundabout:
+    file: lib/Acme/MetaSyntactic/magicroundabout.pm
+    version: 1.000
+  Acme::MetaSyntactic::magma:
+    file: lib/Acme/MetaSyntactic/magma.pm
+    version: 1.000
+  Acme::MetaSyntactic::metro:
+    file: lib/Acme/MetaSyntactic/metro.pm
+    version: 1.000
+  Acme::MetaSyntactic::monty_spam:
+    file: lib/Acme/MetaSyntactic/monty_spam.pm
+    version: 1.000
+  Acme::MetaSyntactic::nis:
+    file: lib/Acme/MetaSyntactic/nis.pm
+    version: 1.000
+  Acme::MetaSyntactic::norse_mythology:
+    file: lib/Acme/MetaSyntactic/norse_mythology.pm
+    version: 1.000
+  Acme::MetaSyntactic::octothorpe:
+    file: lib/Acme/MetaSyntactic/octothorpe.pm
+    version: 1.000
+  Acme::MetaSyntactic::olympics:
+    file: lib/Acme/MetaSyntactic/olympics.pm
+    version: 1.000
+  Acme::MetaSyntactic::opcodes:
+    file: lib/Acme/MetaSyntactic/opcodes.pm
+    version: 1.000
+  Acme::MetaSyntactic::oulipo:
+    file: lib/Acme/MetaSyntactic/oulipo.pm
+    version: 1.000
+  Acme::MetaSyntactic::pantagruel:
+    file: lib/Acme/MetaSyntactic/pantagruel.pm
+    version: 1.000
+  Acme::MetaSyntactic::pasta:
+    file: lib/Acme/MetaSyntactic/pasta.pm
+    version: 1.000
+  Acme::MetaSyntactic::pause_id:
+    file: lib/Acme/MetaSyntactic/pause_id.pm
+    version: 1.000
+  Acme::MetaSyntactic::peanuts:
+    file: lib/Acme/MetaSyntactic/peanuts.pm
+    version: 1.000
+  Acme::MetaSyntactic::pgpfone:
+    file: lib/Acme/MetaSyntactic/pgpfone.pm
+    version: 1.000
+  Acme::MetaSyntactic::phonetic:
+    file: lib/Acme/MetaSyntactic/phonetic.pm
+    version: 1.000
+  Acme::MetaSyntactic::pie:
+    file: lib/Acme/MetaSyntactic/pie.pm
+    version: 1.000
+  Acme::MetaSyntactic::planets:
+    file: lib/Acme/MetaSyntactic/planets.pm
+    version: 1.000
+  Acme::MetaSyntactic::pm_groups:
+    file: lib/Acme/MetaSyntactic/pm_groups.pm
+    version: 1.000
+  Acme::MetaSyntactic::pokemon:
+    file: lib/Acme/MetaSyntactic/pokemon.pm
+    version: 1.000
+  Acme::MetaSyntactic::pooh:
+    file: lib/Acme/MetaSyntactic/pooh.pm
+    version: 1.000
+  Acme::MetaSyntactic::pop2:
+    file: lib/Acme/MetaSyntactic/pop2.pm
+    version: 1.000
+  Acme::MetaSyntactic::pop3:
+    file: lib/Acme/MetaSyntactic/pop3.pm
+    version: 1.000
+  Acme::MetaSyntactic::pornstars:
+    file: lib/Acme/MetaSyntactic/pornstars.pm
+    version: 1.000
+  Acme::MetaSyntactic::pumpkings:
+    file: lib/Acme/MetaSyntactic/pumpkings.pm
+    version: 1.000
+  Acme::MetaSyntactic::punctuation:
+    file: lib/Acme/MetaSyntactic/punctuation.pm
+    version: 1.000
+  Acme::MetaSyntactic::pynchon:
+    file: lib/Acme/MetaSyntactic/pynchon.pm
+    version: 1.000
+  Acme::MetaSyntactic::python:
+    file: lib/Acme/MetaSyntactic/python.pm
+    version: 1.000
+  Acme::MetaSyntactic::quantum:
+    file: lib/Acme/MetaSyntactic/quantum.pm
+    version: 1.000
+  Acme::MetaSyntactic::robin:
+    file: lib/Acme/MetaSyntactic/robin.pm
+    version: 1.000
+  Acme::MetaSyntactic::roman:
+    file: lib/Acme/MetaSyntactic/roman.pm
+    version: 1.000
+  Acme::MetaSyntactic::scooby_doo:
+    file: lib/Acme/MetaSyntactic/scooby_doo.pm
+    version: 1.000
+  Acme::MetaSyntactic::services:
+    file: lib/Acme/MetaSyntactic/services.pm
+    version: 1.000
+  Acme::MetaSyntactic::shadok:
+    file: lib/Acme/MetaSyntactic/shadok.pm
+    version: 1.000
+  Acme::MetaSyntactic::simpsons:
+    file: lib/Acme/MetaSyntactic/simpsons.pm
+    version: 1.000
+  Acme::MetaSyntactic::sins:
+    file: lib/Acme/MetaSyntactic/sins.pm
+    version: 1.000
+  Acme::MetaSyntactic::smtp:
+    file: lib/Acme/MetaSyntactic/smtp.pm
+    version: 1.000
+  Acme::MetaSyntactic::space_missions:
+    file: lib/Acme/MetaSyntactic/space_missions.pm
+    version: 1.000
+  Acme::MetaSyntactic::sql:
+    file: lib/Acme/MetaSyntactic/sql.pm
+    version: 1.000
+  Acme::MetaSyntactic::stars:
+    file: lib/Acme/MetaSyntactic/stars.pm
+    version: 1.000
+  Acme::MetaSyntactic::state_flowers:
+    file: lib/Acme/MetaSyntactic/state_flowers.pm
+    version: 1.000
+  Acme::MetaSyntactic::summerwine:
+    file: lib/Acme/MetaSyntactic/summerwine.pm
+    version: 1.000
+  Acme::MetaSyntactic::swords:
+    file: lib/Acme/MetaSyntactic/swords.pm
+    version: 1.000
+  Acme::MetaSyntactic::teletubbies:
+    file: lib/Acme/MetaSyntactic/teletubbies.pm
+    version: 1.000
+  Acme::MetaSyntactic::thunderbirds:
+    file: lib/Acme/MetaSyntactic/thunderbirds.pm
+    version: 1.000
+  Acme::MetaSyntactic::tld:
+    file: lib/Acme/MetaSyntactic/tld.pm
+    version: 1.000
+  Acme::MetaSyntactic::tmnt:
+    file: lib/Acme/MetaSyntactic/tmnt.pm
+    version: 1.000
+  Acme::MetaSyntactic::tour_de_france:
+    file: lib/Acme/MetaSyntactic/tour_de_france.pm
+    version: 1.000
+  Acme::MetaSyntactic::trigan:
+    file: lib/Acme/MetaSyntactic/trigan.pm
+    version: 1.000
+  Acme::MetaSyntactic::unicode:
+    file: lib/Acme/MetaSyntactic/unicode.pm
+    version: 1.000
+  Acme::MetaSyntactic::us_presidents:
+    file: lib/Acme/MetaSyntactic/us_presidents.pm
+    version: 1.000
+  Acme::MetaSyntactic::userfriendly:
+    file: lib/Acme/MetaSyntactic/userfriendly.pm
+    version: 1.000
+  Acme::MetaSyntactic::vcs:
+    file: lib/Acme/MetaSyntactic/vcs.pm
+    version: 1.000
+  Acme::MetaSyntactic::viclones:
+    file: lib/Acme/MetaSyntactic/viclones.pm
+    version: 1.000
+  Acme::MetaSyntactic::weekdays:
+    file: lib/Acme/MetaSyntactic/weekdays.pm
+    version: 1.000
+  Acme::MetaSyntactic::yapc:
+    file: lib/Acme/MetaSyntactic/yapc.pm
+    version: 1.000
+  Acme::MetaSyntactic::zodiac:
+    file: lib/Acme/MetaSyntactic/zodiac.pm
+    version: 1.000
+requires:
+  Acme::MetaSyntactic: 1.000
+  perl: 5.006_002
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/book/Acme-MetaSyntactic-Themes
+version: 1.000
