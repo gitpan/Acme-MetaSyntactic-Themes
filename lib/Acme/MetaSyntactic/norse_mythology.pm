@@ -2,9 +2,11 @@ package Acme::MetaSyntactic::norse_mythology;
 use strict;
 use Acme::MetaSyntactic::MultiList;
 our @ISA = qw( Acme::MetaSyntactic::MultiList );
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 __PACKAGE__->init();
 1;
+
+=encoding iso-8859-1
 
 =head1 NAME
 
@@ -49,6 +51,9 @@ published by Gudrun
 (ISBN 9979-856-78-5).
 
 =back
+
+Updated with an C<=encoding> pod command in version 1.001,
+published on May 14,2012
 
 =head1 SEE ALSO
 

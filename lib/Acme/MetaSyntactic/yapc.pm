@@ -6,6 +6,8 @@ our $VERSION = '1.000';
 __PACKAGE__->init();
 1;
 
+=encoding utf8
+
 =head1 NAME
 
 Acme::MetaSyntactic::yapc - The YAPC theme
@@ -96,6 +98,9 @@ MultiList by Abigail in version 0.91, published on September 11, 2006.
 Updated with all YAPC since 2007, and
 received its own version number for Acme-MetaSyntactic-Themes version 1.000,
 published on May 7, 2012.
+
+Updated with an C<=encoding> pod command in version 1.001,
+published on May 14,2012
 
 =head1 SEE ALSO
 

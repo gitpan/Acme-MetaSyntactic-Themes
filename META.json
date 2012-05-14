@@ -4,7 +4,7 @@
       "Philippe Bruhat (BooK) <book@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110440",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.110930",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::MetaSyntactic" : "1.000",
+            "Test::MetaSyntactic" : "1.001",
             "Test::More" : "0.94"
          }
       },
@@ -27,7 +27,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Acme::MetaSyntactic" : "1.000",
+            "Acme::MetaSyntactic" : "1.001",
             "perl" : "5.006_002"
          }
       }
@@ -67,7 +67,7 @@
       },
       "Acme::MetaSyntactic::browser" : {
          "file" : "lib/Acme/MetaSyntactic/browser.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::buffy" : {
          "file" : "lib/Acme/MetaSyntactic/buffy.pm",
@@ -83,7 +83,7 @@
       },
       "Acme::MetaSyntactic::colours" : {
          "file" : "lib/Acme/MetaSyntactic/colours.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::constellations" : {
          "file" : "lib/Acme/MetaSyntactic/constellations.pm",
@@ -95,7 +95,7 @@
       },
       "Acme::MetaSyntactic::counting_rhyme" : {
          "file" : "lib/Acme/MetaSyntactic/counting_rhyme.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::crypto" : {
          "file" : "lib/Acme/MetaSyntactic/crypto.pm",
@@ -119,19 +119,19 @@
       },
       "Acme::MetaSyntactic::discworld" : {
          "file" : "lib/Acme/MetaSyntactic/discworld.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::donmartin" : {
          "file" : "lib/Acme/MetaSyntactic/donmartin.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::dwarves" : {
          "file" : "lib/Acme/MetaSyntactic/dwarves.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::elements" : {
          "file" : "lib/Acme/MetaSyntactic/elements.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::facecards" : {
          "file" : "lib/Acme/MetaSyntactic/facecards.pm",
@@ -147,7 +147,7 @@
       },
       "Acme::MetaSyntactic::garbage" : {
          "file" : "lib/Acme/MetaSyntactic/garbage.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::garfield" : {
          "file" : "lib/Acme/MetaSyntactic/garfield.pm",
@@ -163,11 +163,11 @@
       },
       "Acme::MetaSyntactic::groo" : {
          "file" : "lib/Acme/MetaSyntactic/groo.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::haddock" : {
          "file" : "lib/Acme/MetaSyntactic/haddock.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::hhgg" : {
          "file" : "lib/Acme/MetaSyntactic/hhgg.pm",
@@ -195,7 +195,7 @@
       },
       "Acme::MetaSyntactic::loremipsum" : {
          "file" : "lib/Acme/MetaSyntactic/loremipsum.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::lotr" : {
          "file" : "lib/Acme/MetaSyntactic/lotr.pm",
@@ -207,7 +207,7 @@
       },
       "Acme::MetaSyntactic::magicroundabout" : {
          "file" : "lib/Acme/MetaSyntactic/magicroundabout.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::magma" : {
          "file" : "lib/Acme/MetaSyntactic/magma.pm",
@@ -215,11 +215,15 @@
       },
       "Acme::MetaSyntactic::metro" : {
          "file" : "lib/Acme/MetaSyntactic/metro.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::monty_spam" : {
          "file" : "lib/Acme/MetaSyntactic/monty_spam.pm",
          "version" : "1.000"
+      },
+      "Acme::MetaSyntactic::muses" : {
+         "file" : "lib/Acme/MetaSyntactic/muses.pm",
+         "version" : "1"
       },
       "Acme::MetaSyntactic::nis" : {
          "file" : "lib/Acme/MetaSyntactic/nis.pm",
@@ -227,7 +231,7 @@
       },
       "Acme::MetaSyntactic::norse_mythology" : {
          "file" : "lib/Acme/MetaSyntactic/norse_mythology.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::octothorpe" : {
          "file" : "lib/Acme/MetaSyntactic/octothorpe.pm",
@@ -235,7 +239,7 @@
       },
       "Acme::MetaSyntactic::olympics" : {
          "file" : "lib/Acme/MetaSyntactic/olympics.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::opcodes" : {
          "file" : "lib/Acme/MetaSyntactic/opcodes.pm",
@@ -243,11 +247,11 @@
       },
       "Acme::MetaSyntactic::oulipo" : {
          "file" : "lib/Acme/MetaSyntactic/oulipo.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::pantagruel" : {
          "file" : "lib/Acme/MetaSyntactic/pantagruel.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::pasta" : {
          "file" : "lib/Acme/MetaSyntactic/pasta.pm",
@@ -283,7 +287,7 @@
       },
       "Acme::MetaSyntactic::pokemon" : {
          "file" : "lib/Acme/MetaSyntactic/pokemon.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::pooh" : {
          "file" : "lib/Acme/MetaSyntactic/pooh.pm",
@@ -299,7 +303,7 @@
       },
       "Acme::MetaSyntactic::pornstars" : {
          "file" : "lib/Acme/MetaSyntactic/pornstars.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::pumpkings" : {
          "file" : "lib/Acme/MetaSyntactic/pumpkings.pm",
@@ -319,7 +323,7 @@
       },
       "Acme::MetaSyntactic::quantum" : {
          "file" : "lib/Acme/MetaSyntactic/quantum.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::robin" : {
          "file" : "lib/Acme/MetaSyntactic/robin.pm",
@@ -371,7 +375,7 @@
       },
       "Acme::MetaSyntactic::summerwine" : {
          "file" : "lib/Acme/MetaSyntactic/summerwine.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::swords" : {
          "file" : "lib/Acme/MetaSyntactic/swords.pm",
@@ -379,7 +383,7 @@
       },
       "Acme::MetaSyntactic::teletubbies" : {
          "file" : "lib/Acme/MetaSyntactic/teletubbies.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::thunderbirds" : {
          "file" : "lib/Acme/MetaSyntactic/thunderbirds.pm",
@@ -395,7 +399,7 @@
       },
       "Acme::MetaSyntactic::tour_de_france" : {
          "file" : "lib/Acme/MetaSyntactic/tour_de_france.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::trigan" : {
          "file" : "lib/Acme/MetaSyntactic/trigan.pm",
@@ -403,7 +407,7 @@
       },
       "Acme::MetaSyntactic::unicode" : {
          "file" : "lib/Acme/MetaSyntactic/unicode.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::us_presidents" : {
          "file" : "lib/Acme/MetaSyntactic/us_presidents.pm",
@@ -415,7 +419,7 @@
       },
       "Acme::MetaSyntactic::vcs" : {
          "file" : "lib/Acme/MetaSyntactic/vcs.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::viclones" : {
          "file" : "lib/Acme/MetaSyntactic/viclones.pm",
@@ -443,5 +447,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.000"
+   "version" : "1.001"
 }

@@ -2,7 +2,7 @@ package Acme::MetaSyntactic::dwarves;
 use strict;
 use Acme::MetaSyntactic::Locale;
 our @ISA = qw( Acme::MetaSyntactic::Locale );
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 __PACKAGE__->init();
 1;
 
@@ -31,6 +31,9 @@ on May 15, 2006.
 Received its own version number for Acme-MetaSyntactic-Themes version 1.000,
 published on May 7, 2012.
 
+Updated by Abigail (added Irish Gaelic and Croatian) in version 1.001,
+published in May 14, 2012.
+
 =head1 SEE ALSO
 
 L<Acme::MetaSyntactic>, L<Acme::MetaSyntactic::Locale>.
@@ -52,6 +55,10 @@ Sabio      Feliz       Grunon      Tontin      Dormilon    Alergico    Romantico
 Viisas     Lystikas    Joro        Vilkas      Unelias     Nuhanena    Ujo
 # names fr
 Prof       Joyeux      Grincheux   Simplet     Dormeur     Atchoum     Timide
+# names ga
+Saoi       Sonai       Cancran     Simpleoir   Codlatan    Sraothachan Cuthalachan
+# names hr
+Uco        Srecko      Ljutko      Glupko      Pospanko    Kihavko     Stidljivko
 # names hu
 Tudor      Vidor       Morgo       Kuka        Szundi      Hapci       Szende
 # names it

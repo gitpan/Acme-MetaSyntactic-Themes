@@ -2,9 +2,11 @@ package Acme::MetaSyntactic::colours;
 use strict;
 use Acme::MetaSyntactic::Locale;
 our @ISA = qw( Acme::MetaSyntactic::Locale );
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 __PACKAGE__->init();
 1;
+
+=encoding iso-8859-1
 
 =head1 NAME
 
@@ -32,6 +34,9 @@ Made multilingual in version 0.77, published on June 5, 2006.
 
 Received its own version number for Acme-MetaSyntactic-Themes version 1.000,
 published on May 7, 2012.
+
+Updated with an C<=encoding> pod command in version 1.001,
+published on May 14,2012
 
 =head1 SEE ALSO
 

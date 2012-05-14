@@ -3,12 +3,12 @@ abstract: 'The original set of Acme::MetaSyntactic themes'
 author:
   - 'Philippe Bruhat (BooK) <book@cpan.org>'
 build_requires:
-  Test::MetaSyntactic: 1.000
+  Test::MetaSyntactic: 1.001
   Test::More: 0.94
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -41,7 +41,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::browser:
     file: lib/Acme/MetaSyntactic/browser.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::buffy:
     file: lib/Acme/MetaSyntactic/buffy.pm
     version: 1.000
@@ -53,7 +53,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::colours:
     file: lib/Acme/MetaSyntactic/colours.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::constellations:
     file: lib/Acme/MetaSyntactic/constellations.pm
     version: 1.000
@@ -62,7 +62,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::counting_rhyme:
     file: lib/Acme/MetaSyntactic/counting_rhyme.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::crypto:
     file: lib/Acme/MetaSyntactic/crypto.pm
     version: 1.000
@@ -80,16 +80,16 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::discworld:
     file: lib/Acme/MetaSyntactic/discworld.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::donmartin:
     file: lib/Acme/MetaSyntactic/donmartin.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::dwarves:
     file: lib/Acme/MetaSyntactic/dwarves.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::elements:
     file: lib/Acme/MetaSyntactic/elements.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::facecards:
     file: lib/Acme/MetaSyntactic/facecards.pm
     version: 1.000
@@ -101,7 +101,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::garbage:
     file: lib/Acme/MetaSyntactic/garbage.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::garfield:
     file: lib/Acme/MetaSyntactic/garfield.pm
     version: 1.000
@@ -113,10 +113,10 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::groo:
     file: lib/Acme/MetaSyntactic/groo.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::haddock:
     file: lib/Acme/MetaSyntactic/haddock.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::hhgg:
     file: lib/Acme/MetaSyntactic/hhgg.pm
     version: 1.000
@@ -137,7 +137,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::loremipsum:
     file: lib/Acme/MetaSyntactic/loremipsum.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::lotr:
     file: lib/Acme/MetaSyntactic/lotr.pm
     version: 1.000
@@ -146,37 +146,40 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::magicroundabout:
     file: lib/Acme/MetaSyntactic/magicroundabout.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::magma:
     file: lib/Acme/MetaSyntactic/magma.pm
     version: 1.000
   Acme::MetaSyntactic::metro:
     file: lib/Acme/MetaSyntactic/metro.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::monty_spam:
     file: lib/Acme/MetaSyntactic/monty_spam.pm
     version: 1.000
+  Acme::MetaSyntactic::muses:
+    file: lib/Acme/MetaSyntactic/muses.pm
+    version: 1
   Acme::MetaSyntactic::nis:
     file: lib/Acme/MetaSyntactic/nis.pm
     version: 1.000
   Acme::MetaSyntactic::norse_mythology:
     file: lib/Acme/MetaSyntactic/norse_mythology.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::octothorpe:
     file: lib/Acme/MetaSyntactic/octothorpe.pm
     version: 1.000
   Acme::MetaSyntactic::olympics:
     file: lib/Acme/MetaSyntactic/olympics.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::opcodes:
     file: lib/Acme/MetaSyntactic/opcodes.pm
     version: 1.000
   Acme::MetaSyntactic::oulipo:
     file: lib/Acme/MetaSyntactic/oulipo.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::pantagruel:
     file: lib/Acme/MetaSyntactic/pantagruel.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::pasta:
     file: lib/Acme/MetaSyntactic/pasta.pm
     version: 1.000
@@ -203,7 +206,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pokemon:
     file: lib/Acme/MetaSyntactic/pokemon.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::pooh:
     file: lib/Acme/MetaSyntactic/pooh.pm
     version: 1.000
@@ -215,7 +218,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pornstars:
     file: lib/Acme/MetaSyntactic/pornstars.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::pumpkings:
     file: lib/Acme/MetaSyntactic/pumpkings.pm
     version: 1.000
@@ -230,7 +233,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::quantum:
     file: lib/Acme/MetaSyntactic/quantum.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::robin:
     file: lib/Acme/MetaSyntactic/robin.pm
     version: 1.000
@@ -269,13 +272,13 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::summerwine:
     file: lib/Acme/MetaSyntactic/summerwine.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::swords:
     file: lib/Acme/MetaSyntactic/swords.pm
     version: 1.000
   Acme::MetaSyntactic::teletubbies:
     file: lib/Acme/MetaSyntactic/teletubbies.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::thunderbirds:
     file: lib/Acme/MetaSyntactic/thunderbirds.pm
     version: 1.000
@@ -287,13 +290,13 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::tour_de_france:
     file: lib/Acme/MetaSyntactic/tour_de_france.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::trigan:
     file: lib/Acme/MetaSyntactic/trigan.pm
     version: 1.000
   Acme::MetaSyntactic::unicode:
     file: lib/Acme/MetaSyntactic/unicode.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::us_presidents:
     file: lib/Acme/MetaSyntactic/us_presidents.pm
     version: 1.000
@@ -302,7 +305,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::vcs:
     file: lib/Acme/MetaSyntactic/vcs.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::viclones:
     file: lib/Acme/MetaSyntactic/viclones.pm
     version: 1.000
@@ -316,9 +319,9 @@ provides:
     file: lib/Acme/MetaSyntactic/zodiac.pm
     version: 1.000
 requires:
-  Acme::MetaSyntactic: 1.000
+  Acme::MetaSyntactic: 1.001
   perl: 5.006_002
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.000
+version: 1.001

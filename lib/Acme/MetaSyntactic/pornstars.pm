@@ -2,7 +2,7 @@ package Acme::MetaSyntactic::pornstars;
 use strict;
 use Acme::MetaSyntactic::MultiList;
 our @ISA = qw( Acme::MetaSyntactic::MultiList );
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 __PACKAGE__->init();
 
 our %Remote = (
@@ -22,6 +22,8 @@ our %Remote = (
 );
 
 1;
+
+=encoding iso-8859-1
 
 =head1 NAME
 
@@ -73,6 +75,9 @@ Updated with a new remote source for female pornstars,
 abandoned the obsolete source for male pornstars, and
 received its own version number for Acme-MetaSyntactic-Themes version 1.000,
 published on May 7, 2012.
+
+Updated with an C<=encoding> pod command in version 1.001,
+published on May 14,2012
 
 =head1 SEE ALSO
 
