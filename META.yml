@@ -53,7 +53,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::colours:
     file: lib/Acme/MetaSyntactic/colours.pm
-    version: 1.001
+    version: 1.002
   Acme::MetaSyntactic::constellations:
     file: lib/Acme/MetaSyntactic/constellations.pm
     version: 1.000
@@ -158,7 +158,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::muses:
     file: lib/Acme/MetaSyntactic/muses.pm
-    version: 1
+    version: 1.001
   Acme::MetaSyntactic::nis:
     file: lib/Acme/MetaSyntactic/nis.pm
     version: 1.000
@@ -234,6 +234,9 @@ provides:
   Acme::MetaSyntactic::quantum:
     file: lib/Acme/MetaSyntactic/quantum.pm
     version: 1.001
+  Acme::MetaSyntactic::reindeer:
+    file: lib/Acme/MetaSyntactic/reindeer.pm
+    version: 1.000
   Acme::MetaSyntactic::robin:
     file: lib/Acme/MetaSyntactic/robin.pm
     version: 1.000
@@ -287,7 +290,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::tmnt:
     file: lib/Acme/MetaSyntactic/tmnt.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::tour_de_france:
     file: lib/Acme/MetaSyntactic/tour_de_france.pm
     version: 1.001
@@ -314,7 +317,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::yapc:
     file: lib/Acme/MetaSyntactic/yapc.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::zodiac:
     file: lib/Acme/MetaSyntactic/zodiac.pm
     version: 1.000
@@ -324,4 +327,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.001
+version: 1.002

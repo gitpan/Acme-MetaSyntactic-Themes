@@ -83,7 +83,7 @@
       },
       "Acme::MetaSyntactic::colours" : {
          "file" : "lib/Acme/MetaSyntactic/colours.pm",
-         "version" : "1.001"
+         "version" : "1.002"
       },
       "Acme::MetaSyntactic::constellations" : {
          "file" : "lib/Acme/MetaSyntactic/constellations.pm",
@@ -223,7 +223,7 @@
       },
       "Acme::MetaSyntactic::muses" : {
          "file" : "lib/Acme/MetaSyntactic/muses.pm",
-         "version" : "1"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::nis" : {
          "file" : "lib/Acme/MetaSyntactic/nis.pm",
@@ -325,6 +325,10 @@
          "file" : "lib/Acme/MetaSyntactic/quantum.pm",
          "version" : "1.001"
       },
+      "Acme::MetaSyntactic::reindeer" : {
+         "file" : "lib/Acme/MetaSyntactic/reindeer.pm",
+         "version" : "1.000"
+      },
       "Acme::MetaSyntactic::robin" : {
          "file" : "lib/Acme/MetaSyntactic/robin.pm",
          "version" : "1.000"
@@ -395,7 +399,7 @@
       },
       "Acme::MetaSyntactic::tmnt" : {
          "file" : "lib/Acme/MetaSyntactic/tmnt.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::tour_de_france" : {
          "file" : "lib/Acme/MetaSyntactic/tour_de_france.pm",
@@ -431,7 +435,7 @@
       },
       "Acme::MetaSyntactic::yapc" : {
          "file" : "lib/Acme/MetaSyntactic/yapc.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::zodiac" : {
          "file" : "lib/Acme/MetaSyntactic/zodiac.pm",
@@ -447,5 +451,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.001"
+   "version" : "1.002"
 }
