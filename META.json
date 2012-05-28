@@ -37,6 +37,10 @@
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
          "version" : "1.000"
       },
+      "Acme::MetaSyntactic::afke" : {
+         "file" : "lib/Acme/MetaSyntactic/afke.pm",
+         "version" : "1.000"
+      },
       "Acme::MetaSyntactic::alphabet" : {
          "file" : "lib/Acme/MetaSyntactic/alphabet.pm",
          "version" : "1.000"
@@ -191,7 +195,7 @@
       },
       "Acme::MetaSyntactic::linux" : {
          "file" : "lib/Acme/MetaSyntactic/linux.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::loremipsum" : {
          "file" : "lib/Acme/MetaSyntactic/loremipsum.pm",
@@ -259,7 +263,7 @@
       },
       "Acme::MetaSyntactic::pause_id" : {
          "file" : "lib/Acme/MetaSyntactic/pause_id.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::peanuts" : {
          "file" : "lib/Acme/MetaSyntactic/peanuts.pm",
@@ -283,7 +287,7 @@
       },
       "Acme::MetaSyntactic::pm_groups" : {
          "file" : "lib/Acme/MetaSyntactic/pm_groups.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::pokemon" : {
          "file" : "lib/Acme/MetaSyntactic/pokemon.pm",
@@ -303,7 +307,7 @@
       },
       "Acme::MetaSyntactic::pornstars" : {
          "file" : "lib/Acme/MetaSyntactic/pornstars.pm",
-         "version" : "1.001"
+         "version" : "1.002"
       },
       "Acme::MetaSyntactic::pumpkings" : {
          "file" : "lib/Acme/MetaSyntactic/pumpkings.pm",
@@ -451,5 +455,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.002"
+   "version" : "1.003"
 }
