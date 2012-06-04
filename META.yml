@@ -1,5 +1,5 @@
 ---
-abstract: 'The original set of Acme::MetaSyntactic themes'
+abstract: 'The original Acme::MetaSyntactic themes'
 author:
   - 'Philippe Bruhat (BooK) <book@cpan.org>'
 build_requires:
@@ -15,6 +15,9 @@ meta-spec:
   version: 1.4
 name: Acme-MetaSyntactic-Themes
 provides:
+  Acme::MetaSyntactic::Themes:
+    file: lib/Acme/MetaSyntactic/Themes.pm
+    version: 1.004
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -56,7 +59,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::colours:
     file: lib/Acme/MetaSyntactic/colours.pm
-    version: 1.002
+    version: 1.003
   Acme::MetaSyntactic::constellations:
     file: lib/Acme/MetaSyntactic/constellations.pm
     version: 1.000
@@ -86,13 +89,16 @@ provides:
     version: 1.001
   Acme::MetaSyntactic::donmartin:
     file: lib/Acme/MetaSyntactic/donmartin.pm
-    version: 1.001
+    version: 1.002
   Acme::MetaSyntactic::dwarves:
     file: lib/Acme/MetaSyntactic/dwarves.pm
     version: 1.001
   Acme::MetaSyntactic::elements:
     file: lib/Acme/MetaSyntactic/elements.pm
-    version: 1.001
+    version: 1.002
+  Acme::MetaSyntactic::fabeltjeskrant:
+    file: lib/Acme/MetaSyntactic/fabeltjeskrant.pm
+    version: 1.000
   Acme::MetaSyntactic::facecards:
     file: lib/Acme/MetaSyntactic/facecards.pm
     version: 1.000
@@ -330,4 +336,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.003
+version: 1.004
