@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.004
+    version: 1.005
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -288,6 +288,9 @@ provides:
   Acme::MetaSyntactic::swords:
     file: lib/Acme/MetaSyntactic/swords.pm
     version: 1.000
+  Acme::MetaSyntactic::tarot:
+    file: lib/Acme/MetaSyntactic/tarot.pm
+    version: 1.000
   Acme::MetaSyntactic::teletubbies:
     file: lib/Acme/MetaSyntactic/teletubbies.pm
     version: 1.001
@@ -336,4 +339,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.004
+version: 1.005
