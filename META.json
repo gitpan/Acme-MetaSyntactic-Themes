@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.005"
+         "version" : "1.006"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -43,6 +43,10 @@
       },
       "Acme::MetaSyntactic::afke" : {
          "file" : "lib/Acme/MetaSyntactic/afke.pm",
+         "version" : "1.000"
+      },
+      "Acme::MetaSyntactic::alice" : {
+         "file" : "lib/Acme/MetaSyntactic/alice.pm",
          "version" : "1.000"
       },
       "Acme::MetaSyntactic::alphabet" : {
@@ -467,5 +471,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.005"
+   "version" : "1.006"
 }

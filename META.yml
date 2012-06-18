@@ -17,12 +17,15 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.005
+    version: 1.006
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
   Acme::MetaSyntactic::afke:
     file: lib/Acme/MetaSyntactic/afke.pm
+    version: 1.000
+  Acme::MetaSyntactic::alice:
+    file: lib/Acme/MetaSyntactic/alice.pm
     version: 1.000
   Acme::MetaSyntactic::alphabet:
     file: lib/Acme/MetaSyntactic/alphabet.pm
@@ -339,4 +342,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.005
+version: 1.006
