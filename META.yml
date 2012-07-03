@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.007
+    version: 1.008
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -134,6 +134,9 @@ provides:
     version: 1.001
   Acme::MetaSyntactic::hhgg:
     file: lib/Acme/MetaSyntactic/hhgg.pm
+    version: 1.000
+  Acme::MetaSyntactic::iata:
+    file: lib/Acme/MetaSyntactic/iata.pm
     version: 1.000
   Acme::MetaSyntactic::invasions:
     file: lib/Acme/MetaSyntactic/invasions.pm
@@ -340,9 +343,9 @@ provides:
     file: lib/Acme/MetaSyntactic/zodiac.pm
     version: 1.000
 requires:
-  Acme::MetaSyntactic: 1.001
+  Acme::MetaSyntactic: 1.004
   perl: 5.006_002
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.007
+version: 1.008

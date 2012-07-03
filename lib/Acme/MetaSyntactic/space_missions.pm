@@ -19,14 +19,18 @@ This theme lists the names of various space missions flights.
 
 =over 4
 
-=item Apollo
+=item *
+
+C<apollo>
 
 As from Apollo 9, the command and lunar modules of Project Apollo were
 given radio call signs. This list document them.
 
 Source: I<A Man on the Moon>, by Andrew Chaikin.
 
-=item Mercury
+=item *
+
+C<mercury>
 
 This list gives the names of the six Mercury spacecraft,
 plus the name of the flight cancelled when Deke Slayton
@@ -34,12 +38,16 @@ was grounded for health reasons.
 
 Source: I<The Right Stuff>, by Tom Wolfe.
 
-=item Manned Spacecraft
+=item *
+
+C<manned_spacecraft>
 
 This list gives the names of the manned spacecraft,
 all nations and all agencies or firms combined.
 
-=item Launch Vehicles
+=item *
+
+C<launch_vehicles>
 
 This list gives the names of launch vehicles type. For vehicles with
 several numbered subtypes, only the main type has been given, without
@@ -53,7 +61,9 @@ To this book, I have added
 L<http://en.wikipedia.org/wiki/List_of_launch_vehicles> and
 L<http://en.wikipedia.org/wiki/Scaled_Composites_White_Knight>.
 
-=item Victims
+=item *
+
+C<victims>
 
 This list gives the names of the humans who were killed in a
 spacecraft accident.
@@ -67,16 +77,55 @@ L<http://en.wikipedia.org/wiki/Space_disaster>.
 
 Jean Forget
 
-Introduced in Acme-MetaSyntactic version 0.41 as C<apollo>, published on September 26, 2005.
+=head1 CHANGES
+
+=over 4
+
+=item *
+
+2012-05-07 - v1.000
+
+Received its own version number in Acme-MetaSyntactic-Themes version 1.000.
+
+=item *
+
+2006-08-21
+
+Updated with themes C<manned_spacecraft>, C<launch_vehicles> and C<victims>
+in Acme-MetaSyntactic version 0.88.
+
+=item *
+
+2006-08-07
 
 Augmented with other space missions and renamed C<space_missions> in
 version 0.86, published on August 7, 2006.
 
-Updated with themes C<manned_spacecraft>, C<launch_vehicles> and C<victims>
-in version 0.88, published on August 21, 2006.
+=item *
 
-Received its own version number for Acme-MetaSyntactic-Themes version 1.000,
-published on May 7, 2012.
+2006-06-14 - 2006-06-26
+
+Jean Forget proposed a new C<mercury> theme.
+I suggested grouping both lists under a single theme
+(C<space_missions>? C<nasa>?).
+
+Jean selected the name C<space_missions> for the theme,
+as he already had plans for other lists that were not related to the NASA.
+
+=item *
+
+2005-09-26
+
+Introduced in Acme-MetaSyntactic version 0.41 as theme C<apollo>.
+
+=item *
+
+2005-09-12
+
+Jean Forget proposed the list of Apollo command and lunar modules
+radio call signs.
+
+=back
 
 =head1 SEE ALSO
 
