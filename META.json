@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.008"
+         "version" : "1.009"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -195,6 +195,10 @@
       },
       "Acme::MetaSyntactic::iata" : {
          "file" : "lib/Acme/MetaSyntactic/iata.pm",
+         "version" : "1.000"
+      },
+      "Acme::MetaSyntactic::icao" : {
+         "file" : "lib/Acme/MetaSyntactic/icao.pm",
          "version" : "1.000"
       },
       "Acme::MetaSyntactic::invasions" : {
@@ -479,5 +483,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.008"
+   "version" : "1.009"
 }
