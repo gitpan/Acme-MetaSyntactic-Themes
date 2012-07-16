@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.009
+    version: 1.010
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -53,6 +53,9 @@ provides:
     version: 1.001
   Acme::MetaSyntactic::buffy:
     file: lib/Acme/MetaSyntactic/buffy.pm
+    version: 1.000
+  Acme::MetaSyntactic::calvin:
+    file: lib/Acme/MetaSyntactic/calvin.pm
     version: 1.000
   Acme::MetaSyntactic::camelidae:
     file: lib/Acme/MetaSyntactic/camelidae.pm
@@ -351,4 +354,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.009
+version: 1.010
