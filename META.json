@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.010"
+         "version" : "1.011"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -99,7 +99,7 @@
       },
       "Acme::MetaSyntactic::colors" : {
          "file" : "lib/Acme/MetaSyntactic/colors.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::colours" : {
          "file" : "lib/Acme/MetaSyntactic/colours.pm",
@@ -223,7 +223,7 @@
       },
       "Acme::MetaSyntactic::linux" : {
          "file" : "lib/Acme/MetaSyntactic/linux.pm",
-         "version" : "1.002"
+         "version" : "1.003"
       },
       "Acme::MetaSyntactic::loremipsum" : {
          "file" : "lib/Acme/MetaSyntactic/loremipsum.pm",
@@ -291,7 +291,7 @@
       },
       "Acme::MetaSyntactic::pause_id" : {
          "file" : "lib/Acme/MetaSyntactic/pause_id.pm",
-         "version" : "1.002"
+         "version" : "1.003"
       },
       "Acme::MetaSyntactic::peanuts" : {
          "file" : "lib/Acme/MetaSyntactic/peanuts.pm",
@@ -319,7 +319,7 @@
       },
       "Acme::MetaSyntactic::pokemon" : {
          "file" : "lib/Acme/MetaSyntactic/pokemon.pm",
-         "version" : "1.001"
+         "version" : "1.002"
       },
       "Acme::MetaSyntactic::pooh" : {
          "file" : "lib/Acme/MetaSyntactic/pooh.pm",
@@ -335,7 +335,7 @@
       },
       "Acme::MetaSyntactic::pornstars" : {
          "file" : "lib/Acme/MetaSyntactic/pornstars.pm",
-         "version" : "1.003"
+         "version" : "1.004"
       },
       "Acme::MetaSyntactic::pumpkings" : {
          "file" : "lib/Acme/MetaSyntactic/pumpkings.pm",
@@ -393,6 +393,10 @@
          "file" : "lib/Acme/MetaSyntactic/smtp.pm",
          "version" : "1.000"
       },
+      "Acme::MetaSyntactic::smurfs" : {
+         "file" : "lib/Acme/MetaSyntactic/smurfs.pm",
+         "version" : "1.000"
+      },
       "Acme::MetaSyntactic::space_missions" : {
          "file" : "lib/Acme/MetaSyntactic/space_missions.pm",
          "version" : "1.000"
@@ -439,7 +443,7 @@
       },
       "Acme::MetaSyntactic::tour_de_france" : {
          "file" : "lib/Acme/MetaSyntactic/tour_de_france.pm",
-         "version" : "1.001"
+         "version" : "1.002"
       },
       "Acme::MetaSyntactic::trigan" : {
          "file" : "lib/Acme/MetaSyntactic/trigan.pm",
@@ -487,5 +491,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.010"
+   "version" : "1.011"
 }
