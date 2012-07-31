@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.011"
+         "version" : "1.012"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -245,6 +245,10 @@
          "file" : "lib/Acme/MetaSyntactic/magma.pm",
          "version" : "1.000"
       },
+      "Acme::MetaSyntactic::mars" : {
+         "file" : "lib/Acme/MetaSyntactic/mars.pm",
+         "version" : "1.000"
+      },
       "Acme::MetaSyntactic::metro" : {
          "file" : "lib/Acme/MetaSyntactic/metro.pm",
          "version" : "1.001"
@@ -435,7 +439,7 @@
       },
       "Acme::MetaSyntactic::tld" : {
          "file" : "lib/Acme/MetaSyntactic/tld.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::tmnt" : {
          "file" : "lib/Acme/MetaSyntactic/tmnt.pm",
@@ -491,5 +495,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.011"
+   "version" : "1.012"
 }
