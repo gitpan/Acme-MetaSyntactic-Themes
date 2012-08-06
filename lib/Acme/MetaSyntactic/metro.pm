@@ -2,7 +2,7 @@ package Acme::MetaSyntactic::metro;
 use strict;
 use Acme::MetaSyntactic::MultiList;
 our @ISA = qw( Acme::MetaSyntactic::MultiList );
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 __PACKAGE__->init();
 1;
 
@@ -55,13 +55,29 @@ C<au/vienna>: Vienna, Austria, 5 lines.
 
 C<pt/porto>: Port, Portugal, 4 lines.
 
+=item *
+
+C<us/camden>: Camden, United States, 1 line.
+
+=item *
+
+C<us/philadelpha>: Philadelphia, United States, 3 lines.
+
 =item * 
 
 C<us/chicago>: Chicago, United States, 8 lines.
 
 =item *
 
-C<uk/london>: London, United Kingdom, 12 lines.
+C<uk/glasgow>: Glasgow, United Kingdom, 1 line.
+
+=item *
+
+C<uk/london>: London, United Kingdom, 11 lines.
+
+=item *
+
+C<uk/london/dlr>: Docklands Light Rail, London, United Kingdom, 6 branches.
 
 =item *
 
@@ -89,6 +105,15 @@ public on July 19, 1900.
 =head1 CHANGES
 
 =over 4
+
+=item *
+
+2012-08-06 - v1.002
+
+Updated by Abigail with three metro lines for Philadelphia, the PATCO line
+between Camden and Philadelphia, the metro line for Glascow, the Docklands
+Light Rail lines for London, and the removal the East London metro line,
+in Acme-MetaSyntactic-Themes version 1.013.
 
 =item *
 
@@ -972,6 +997,10 @@ Marques
 Combatentes
 Salgueiros
 Polo_Universitario
+# names us camden PATCO
+Lindenwold Ashland Woodcrest Haddonfield Westmont Collingswood Ferry_Avenue
+Broadway City_Hall Franklin_Square Eigth_and_Market Ninth_Tenth_and_Locust
+Twelfth_Thirteenth_and_Locust Fifteenth_Sixteenth_and_Locust
 # names us chicago red
 Ninety_Fifth
 Eighty_Seventh
@@ -1181,6 +1210,24 @@ Library
 LaSalle_and_Van_Buren
 Quincy
 Washington_and_Wells
+# names us philadelphia market_frankford_line
+Sixty_Ninth_Street_Transportation_Center Millbourne Sixty_Third_Street
+Sixtieth_Street Fifty_Sixth_Street Fifty_Second_Street Fourty_Sixth_Street
+Fortieth_Street Thirty_Fourth_Street Thirtieth_Street Fifteenth_Street
+Thirteenth_Street Eleventh_Street Eigth_Street Fifth_Street Second_Street
+Spring_Garden Girard Berks York_Dauphin Huntingdon Somerset Allegheny Tioga
+Erie_Torresdale Church Margaret_Orthodox Frankford_Transportation_Center
+# names us philadelphia broad_street_line
+Fern_Rock_Transportation_Center Olney_Transportation_Center Logan Wyoming
+Hunting_Park Erie Allegheny North Philadelphia Susquehanna_Dauphin
+Cecil_B_Moore Girard Fairmount Spring Garden Race_Vine City_Hall Walnut_Locust
+Lombard_South Ellsworth_Federal Tasker_Morris Snyder Oregon AT_T_Station
+# names us philadelphia broad_ridge_spur
+Spring Garden Chinatown Eigth_Street
+# names uk glasgow
+Buchanan_Street St_Enoch Bridge_Street West_Street Shields_Road Kinning_Park
+Cessnock Ibrox Govan Patrick Kelvinhall Hillhead Kelvinbridge St_Georges_Cross
+Cowcaddens
 # names uk london bakerloo_line
 Harrow_and_Wealdstone Kenton South_Kenton North_Wembley Wembley_Central
 Stonebridge_Park Harlesden Willesden_Junction Kensal_Green Queen_s_Park
@@ -1216,9 +1263,6 @@ Whitechapel Stepney_Green Mile_End Bow_Road Bromley_by_Bow West_Ham
 Plaistow Upton Park East Ham Barking Upney Becontree Dagenham_Heathway
 Dagenham_East Elm_Park Hornchurch Upminster_Bridge Upminster
 High_Street_Kensington Notting_Hill_Gate Bayswater Paddington Edgware_Road
-# names uk london east_london_line
-Shoreditch Whitechapel Shadwell Wapping Rotherhithe Canada_Water
-Surrey_Quays New_Cross_Gate New_Cross
 # names uk london hammersmith_and_city_line
 Hammersmith Goldhawk_Road Shepherd_s_Bush Latimer_Road Ladbroke_Grove
 Westbourne_Park Royal_Oak Paddington Edgware_Road Baker_Street
@@ -1265,6 +1309,21 @@ Warren_Street Oxford_Circus Green_Park Victoria Pimlico Vauxhall
 Stockwell Brixton
 # names uk london waterloo_and_city_line
 Bank Waterloo
+# names uk london dlr bank_tower_gateway_canning_town
+Bank Blackwall Canning East_India Limehouse Poplar Shadwell Westferry
+Tower_Gateway
+# names uk london dlr lewisham_branch
+Canary_Wharf Crossharbour Cutty_Sark Deptford_Bridge Elverson_Road
+Heron_Quays Greenwich Island_Gardens Lewisham Mudchute South_Quay
+West_India_Quay
+# names uk london dlr stratford_branch
+All_Saints Bow_Church Devons_Road Langdon_Park Pudding_Mill_Lane Stratford
+# names uk london dlr woolwich_arsenal_branch
+King_George_V London_City_Airport Pontoon_Dock West_Silvertown Woolwich_Arsenal
+# names uk london dlr stratford_international_branch
+Abbey_Road
+Canning_Town Star_Lane Stratford Stratford_High_Street Stratford_International
+West_Ham
 # names nl rotterdam erasmus_line
 De_Akkers Heemraadlaan Spijkenisse_Centrum Zalmplaat Hoogvliet Tussenwater
 Poortugaal Rhoon Slinge Zuidplein Maashaven Rijnhaven Wilhelminaplein

@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.012
+    version: 1.013
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -165,6 +165,9 @@ provides:
   Acme::MetaSyntactic::lotr:
     file: lib/Acme/MetaSyntactic/lotr.pm
     version: 1.000
+  Acme::MetaSyntactic::lucky_luke:
+    file: lib/Acme/MetaSyntactic/lucky_luke.pm
+    version: 1.000
   Acme::MetaSyntactic::magic8ball:
     file: lib/Acme/MetaSyntactic/magic8ball.pm
     version: 1.000
@@ -179,7 +182,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::metro:
     file: lib/Acme/MetaSyntactic/metro.pm
-    version: 1.001
+    version: 1.002
   Acme::MetaSyntactic::monty_spam:
     file: lib/Acme/MetaSyntactic/monty_spam.pm
     version: 1.000
@@ -360,4 +363,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.012
+version: 1.013

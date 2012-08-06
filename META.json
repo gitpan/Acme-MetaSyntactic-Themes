@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.012"
+         "version" : "1.013"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -233,6 +233,10 @@
          "file" : "lib/Acme/MetaSyntactic/lotr.pm",
          "version" : "1.000"
       },
+      "Acme::MetaSyntactic::lucky_luke" : {
+         "file" : "lib/Acme/MetaSyntactic/lucky_luke.pm",
+         "version" : "1.000"
+      },
       "Acme::MetaSyntactic::magic8ball" : {
          "file" : "lib/Acme/MetaSyntactic/magic8ball.pm",
          "version" : "1.000"
@@ -251,7 +255,7 @@
       },
       "Acme::MetaSyntactic::metro" : {
          "file" : "lib/Acme/MetaSyntactic/metro.pm",
-         "version" : "1.001"
+         "version" : "1.002"
       },
       "Acme::MetaSyntactic::monty_spam" : {
          "file" : "lib/Acme/MetaSyntactic/monty_spam.pm",
@@ -495,5 +499,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.012"
+   "version" : "1.013"
 }
