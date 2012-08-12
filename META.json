@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.013"
+         "version" : "1.014"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -71,6 +71,10 @@
       },
       "Acme::MetaSyntactic::batman" : {
          "file" : "lib/Acme/MetaSyntactic/batman.pm",
+         "version" : "1.000"
+      },
+      "Acme::MetaSyntactic::ben_and_jerry" : {
+         "file" : "lib/Acme/MetaSyntactic/ben_and_jerry.pm",
          "version" : "1.000"
       },
       "Acme::MetaSyntactic::booze" : {
@@ -499,5 +503,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.013"
+   "version" : "1.014"
 }

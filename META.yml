@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.013
+    version: 1.014
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -44,6 +44,9 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::batman:
     file: lib/Acme/MetaSyntactic/batman.pm
+    version: 1.000
+  Acme::MetaSyntactic::ben_and_jerry:
+    file: lib/Acme/MetaSyntactic/ben_and_jerry.pm
     version: 1.000
   Acme::MetaSyntactic::booze:
     file: lib/Acme/MetaSyntactic/booze.pm
@@ -363,4 +366,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.013
+version: 1.014
