@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112621'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.014
+    version: 1.015
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -47,7 +47,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::ben_and_jerry:
     file: lib/Acme/MetaSyntactic/ben_and_jerry.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::booze:
     file: lib/Acme/MetaSyntactic/booze.pm
     version: 1.000
@@ -330,6 +330,9 @@ provides:
   Acme::MetaSyntactic::tmnt:
     file: lib/Acme/MetaSyntactic/tmnt.pm
     version: 1.001
+  Acme::MetaSyntactic::tokipona:
+    file: lib/Acme/MetaSyntactic/tokipona.pm
+    version: 1.000
   Acme::MetaSyntactic::tour_de_france:
     file: lib/Acme/MetaSyntactic/tour_de_france.pm
     version: 1.002
@@ -366,4 +369,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.014
+version: 1.015
