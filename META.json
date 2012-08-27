@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.015"
+         "version" : "1.016"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -227,7 +227,7 @@
       },
       "Acme::MetaSyntactic::linux" : {
          "file" : "lib/Acme/MetaSyntactic/linux.pm",
-         "version" : "1.003"
+         "version" : "1.004"
       },
       "Acme::MetaSyntactic::loremipsum" : {
          "file" : "lib/Acme/MetaSyntactic/loremipsum.pm",
@@ -303,7 +303,7 @@
       },
       "Acme::MetaSyntactic::pause_id" : {
          "file" : "lib/Acme/MetaSyntactic/pause_id.pm",
-         "version" : "1.003"
+         "version" : "1.004"
       },
       "Acme::MetaSyntactic::peanuts" : {
          "file" : "lib/Acme/MetaSyntactic/peanuts.pm",
@@ -327,7 +327,7 @@
       },
       "Acme::MetaSyntactic::pm_groups" : {
          "file" : "lib/Acme/MetaSyntactic/pm_groups.pm",
-         "version" : "1.002"
+         "version" : "1.003"
       },
       "Acme::MetaSyntactic::pokemon" : {
          "file" : "lib/Acme/MetaSyntactic/pokemon.pm",
@@ -347,7 +347,7 @@
       },
       "Acme::MetaSyntactic::pornstars" : {
          "file" : "lib/Acme/MetaSyntactic/pornstars.pm",
-         "version" : "1.004"
+         "version" : "1.005"
       },
       "Acme::MetaSyntactic::pumpkings" : {
          "file" : "lib/Acme/MetaSyntactic/pumpkings.pm",
@@ -447,7 +447,7 @@
       },
       "Acme::MetaSyntactic::tld" : {
          "file" : "lib/Acme/MetaSyntactic/tld.pm",
-         "version" : "1.001"
+         "version" : "1.002"
       },
       "Acme::MetaSyntactic::tmnt" : {
          "file" : "lib/Acme/MetaSyntactic/tmnt.pm",
@@ -485,13 +485,17 @@
          "file" : "lib/Acme/MetaSyntactic/viclones.pm",
          "version" : "1.000"
       },
+      "Acme::MetaSyntactic::wales_towns" : {
+         "file" : "lib/Acme/MetaSyntactic/wales_towns.pm",
+         "version" : "1.000"
+      },
       "Acme::MetaSyntactic::weekdays" : {
          "file" : "lib/Acme/MetaSyntactic/weekdays.pm",
          "version" : "1.000"
       },
       "Acme::MetaSyntactic::yapc" : {
          "file" : "lib/Acme/MetaSyntactic/yapc.pm",
-         "version" : "1.001"
+         "version" : "1.002"
       },
       "Acme::MetaSyntactic::zodiac" : {
          "file" : "lib/Acme/MetaSyntactic/zodiac.pm",
@@ -507,5 +511,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.015"
+   "version" : "1.016"
 }
