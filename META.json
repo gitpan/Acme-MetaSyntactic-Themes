@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.016"
+         "version" : "1.017"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -156,6 +156,10 @@
       "Acme::MetaSyntactic::elements" : {
          "file" : "lib/Acme/MetaSyntactic/elements.pm",
          "version" : "1.002"
+      },
+      "Acme::MetaSyntactic::evangelion" : {
+         "file" : "lib/Acme/MetaSyntactic/evangelion.pm",
+         "version" : "1.000"
       },
       "Acme::MetaSyntactic::fabeltjeskrant" : {
          "file" : "lib/Acme/MetaSyntactic/fabeltjeskrant.pm",
@@ -511,5 +515,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.016"
+   "version" : "1.017"
 }
