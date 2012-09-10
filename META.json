@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.017"
+         "version" : "1.018"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -79,6 +79,10 @@
       },
       "Acme::MetaSyntactic::booze" : {
          "file" : "lib/Acme/MetaSyntactic/booze.pm",
+         "version" : "1.000"
+      },
+      "Acme::MetaSyntactic::bottles" : {
+         "file" : "lib/Acme/MetaSyntactic/bottles.pm",
          "version" : "1.000"
       },
       "Acme::MetaSyntactic::browser" : {
@@ -127,7 +131,7 @@
       },
       "Acme::MetaSyntactic::currency" : {
          "file" : "lib/Acme/MetaSyntactic/currency.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::dancers" : {
          "file" : "lib/Acme/MetaSyntactic/dancers.pm",
@@ -139,7 +143,7 @@
       },
       "Acme::MetaSyntactic::dilbert" : {
          "file" : "lib/Acme/MetaSyntactic/dilbert.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::discworld" : {
          "file" : "lib/Acme/MetaSyntactic/discworld.pm",
@@ -231,7 +235,7 @@
       },
       "Acme::MetaSyntactic::linux" : {
          "file" : "lib/Acme/MetaSyntactic/linux.pm",
-         "version" : "1.004"
+         "version" : "1.005"
       },
       "Acme::MetaSyntactic::loremipsum" : {
          "file" : "lib/Acme/MetaSyntactic/loremipsum.pm",
@@ -307,7 +311,7 @@
       },
       "Acme::MetaSyntactic::pause_id" : {
          "file" : "lib/Acme/MetaSyntactic/pause_id.pm",
-         "version" : "1.004"
+         "version" : "1.005"
       },
       "Acme::MetaSyntactic::peanuts" : {
          "file" : "lib/Acme/MetaSyntactic/peanuts.pm",
@@ -331,7 +335,7 @@
       },
       "Acme::MetaSyntactic::pm_groups" : {
          "file" : "lib/Acme/MetaSyntactic/pm_groups.pm",
-         "version" : "1.003"
+         "version" : "1.004"
       },
       "Acme::MetaSyntactic::pokemon" : {
          "file" : "lib/Acme/MetaSyntactic/pokemon.pm",
@@ -351,7 +355,7 @@
       },
       "Acme::MetaSyntactic::pornstars" : {
          "file" : "lib/Acme/MetaSyntactic/pornstars.pm",
-         "version" : "1.005"
+         "version" : "1.006"
       },
       "Acme::MetaSyntactic::pumpkings" : {
          "file" : "lib/Acme/MetaSyntactic/pumpkings.pm",
@@ -515,5 +519,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.017"
+   "version" : "1.018"
 }
