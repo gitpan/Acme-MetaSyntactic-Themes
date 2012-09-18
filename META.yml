@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.018
+    version: 1.019
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -285,6 +285,9 @@ provides:
   Acme::MetaSyntactic::scooby_doo:
     file: lib/Acme/MetaSyntactic/scooby_doo.pm
     version: 1.000
+  Acme::MetaSyntactic::screw_drives:
+    file: lib/Acme/MetaSyntactic/screw_drives.pm
+    version: 1.000
   Acme::MetaSyntactic::services:
     file: lib/Acme/MetaSyntactic/services.pm
     version: 1.000
@@ -378,4 +381,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.018
+version: 1.019
