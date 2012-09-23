@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.019"
+         "version" : "1.020"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -148,6 +148,10 @@
       "Acme::MetaSyntactic::discworld" : {
          "file" : "lib/Acme/MetaSyntactic/discworld.pm",
          "version" : "1.001"
+      },
+      "Acme::MetaSyntactic::doctor_who" : {
+         "file" : "lib/Acme/MetaSyntactic/doctor_who.pm",
+         "version" : "1.000"
       },
       "Acme::MetaSyntactic::donmartin" : {
          "file" : "lib/Acme/MetaSyntactic/donmartin.pm",
@@ -523,5 +527,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.019"
+   "version" : "1.020"
 }
