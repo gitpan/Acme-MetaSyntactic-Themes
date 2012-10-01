@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.020
+    version: 1.021
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -36,6 +36,9 @@ provides:
   Acme::MetaSyntactic::antlers:
     file: lib/Acme/MetaSyntactic/antlers.pm
     version: 1.000
+  Acme::MetaSyntactic::asterix:
+    file: lib/Acme/MetaSyntactic/asterix.pm
+    version: 1.000
   Acme::MetaSyntactic::barbapapa:
     file: lib/Acme/MetaSyntactic/barbapapa.pm
     version: 1.000
@@ -47,7 +50,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::ben_and_jerry:
     file: lib/Acme/MetaSyntactic/ben_and_jerry.pm
-    version: 1.001
+    version: 1.002
   Acme::MetaSyntactic::booze:
     file: lib/Acme/MetaSyntactic/booze.pm
     version: 1.000
@@ -170,7 +173,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::linux:
     file: lib/Acme/MetaSyntactic/linux.pm
-    version: 1.005
+    version: 1.006
   Acme::MetaSyntactic::loremipsum:
     file: lib/Acme/MetaSyntactic/loremipsum.pm
     version: 1.001
@@ -227,7 +230,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pause_id:
     file: lib/Acme/MetaSyntactic/pause_id.pm
-    version: 1.005
+    version: 1.006
   Acme::MetaSyntactic::peanuts:
     file: lib/Acme/MetaSyntactic/peanuts.pm
     version: 1.000
@@ -260,7 +263,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pornstars:
     file: lib/Acme/MetaSyntactic/pornstars.pm
-    version: 1.006
+    version: 1.007
   Acme::MetaSyntactic::pumpkings:
     file: lib/Acme/MetaSyntactic/pumpkings.pm
     version: 1.000
@@ -384,4 +387,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.020
+version: 1.021
