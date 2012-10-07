@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.021
+    version: 1.022
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -51,6 +51,9 @@ provides:
   Acme::MetaSyntactic::ben_and_jerry:
     file: lib/Acme/MetaSyntactic/ben_and_jerry.pm
     version: 1.002
+  Acme::MetaSyntactic::bible:
+    file: lib/Acme/MetaSyntactic/bible.pm
+    version: 1.000
   Acme::MetaSyntactic::booze:
     file: lib/Acme/MetaSyntactic/booze.pm
     version: 1.000
@@ -221,7 +224,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::oulipo:
     file: lib/Acme/MetaSyntactic/oulipo.pm
-    version: 1.001
+    version: 1.002
   Acme::MetaSyntactic::pantagruel:
     file: lib/Acme/MetaSyntactic/pantagruel.pm
     version: 1.001
@@ -387,4 +390,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.021
+version: 1.022
