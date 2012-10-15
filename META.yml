@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.022
+    version: 1.023
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -194,7 +194,7 @@ provides:
     version: 1.001
   Acme::MetaSyntactic::magma:
     file: lib/Acme/MetaSyntactic/magma.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::mars:
     file: lib/Acme/MetaSyntactic/mars.pm
     version: 1.000
@@ -209,6 +209,9 @@ provides:
     version: 1.001
   Acme::MetaSyntactic::nis:
     file: lib/Acme/MetaSyntactic/nis.pm
+    version: 1.000
+  Acme::MetaSyntactic::nobel_prize:
+    file: lib/Acme/MetaSyntactic/nobel_prize.pm
     version: 1.000
   Acme::MetaSyntactic::norse_mythology:
     file: lib/Acme/MetaSyntactic/norse_mythology.pm
@@ -390,4 +393,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.022
+version: 1.023
