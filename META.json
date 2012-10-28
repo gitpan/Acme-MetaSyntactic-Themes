@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.024"
+         "version" : "1.025"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -139,7 +139,7 @@
       },
       "Acme::MetaSyntactic::currency" : {
          "file" : "lib/Acme/MetaSyntactic/currency.pm",
-         "version" : "1.001"
+         "version" : "1.002"
       },
       "Acme::MetaSyntactic::dancers" : {
          "file" : "lib/Acme/MetaSyntactic/dancers.pm",
@@ -183,6 +183,10 @@
       },
       "Acme::MetaSyntactic::facecards" : {
          "file" : "lib/Acme/MetaSyntactic/facecards.pm",
+         "version" : "1.000"
+      },
+      "Acme::MetaSyntactic::fawlty_towers" : {
+         "file" : "lib/Acme/MetaSyntactic/fawlty_towers.pm",
          "version" : "1.000"
       },
       "Acme::MetaSyntactic::flintstones" : {
@@ -247,7 +251,7 @@
       },
       "Acme::MetaSyntactic::linux" : {
          "file" : "lib/Acme/MetaSyntactic/linux.pm",
-         "version" : "1.007"
+         "version" : "1.008"
       },
       "Acme::MetaSyntactic::loremipsum" : {
          "file" : "lib/Acme/MetaSyntactic/loremipsum.pm",
@@ -327,7 +331,7 @@
       },
       "Acme::MetaSyntactic::pause_id" : {
          "file" : "lib/Acme/MetaSyntactic/pause_id.pm",
-         "version" : "1.007"
+         "version" : "1.008"
       },
       "Acme::MetaSyntactic::peanuts" : {
          "file" : "lib/Acme/MetaSyntactic/peanuts.pm",
@@ -351,7 +355,7 @@
       },
       "Acme::MetaSyntactic::pm_groups" : {
          "file" : "lib/Acme/MetaSyntactic/pm_groups.pm",
-         "version" : "1.005"
+         "version" : "1.006"
       },
       "Acme::MetaSyntactic::pokemon" : {
          "file" : "lib/Acme/MetaSyntactic/pokemon.pm",
@@ -543,5 +547,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.024"
+   "version" : "1.025"
 }
