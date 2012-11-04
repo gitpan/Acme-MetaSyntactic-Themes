@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.025"
+         "version" : "1.026"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -331,7 +331,7 @@
       },
       "Acme::MetaSyntactic::pause_id" : {
          "file" : "lib/Acme/MetaSyntactic/pause_id.pm",
-         "version" : "1.008"
+         "version" : "1.009"
       },
       "Acme::MetaSyntactic::peanuts" : {
          "file" : "lib/Acme/MetaSyntactic/peanuts.pm",
@@ -403,6 +403,10 @@
       },
       "Acme::MetaSyntactic::reindeer" : {
          "file" : "lib/Acme/MetaSyntactic/reindeer.pm",
+         "version" : "1.000"
+      },
+      "Acme::MetaSyntactic::renault" : {
+         "file" : "lib/Acme/MetaSyntactic/renault.pm",
          "version" : "1.000"
       },
       "Acme::MetaSyntactic::robin" : {
@@ -495,7 +499,7 @@
       },
       "Acme::MetaSyntactic::tour_de_france" : {
          "file" : "lib/Acme/MetaSyntactic/tour_de_france.pm",
-         "version" : "1.002"
+         "version" : "1.003"
       },
       "Acme::MetaSyntactic::trigan" : {
          "file" : "lib/Acme/MetaSyntactic/trigan.pm",
@@ -547,5 +551,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.025"
+   "version" : "1.026"
 }
