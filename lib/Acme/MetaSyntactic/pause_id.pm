@@ -1,15 +1,21 @@
 package Acme::MetaSyntactic::pause_id;
 use strict;
 use Acme::MetaSyntactic::List;
-our @ISA = qw( Acme::MetaSyntactic::List );
-our $VERSION = '1.009';
-__PACKAGE__->init();
+our @ISA     = qw( Acme::MetaSyntactic::List );
+our $VERSION = '1.010';
 
-our %Remote = (
-    source  => 'http://www.cpan.org/authors/00whois.xml',
-    extract => sub {
-        return map { y/-/_/; $_ } $_[0] =~ m!<id>([-\w\d]+)</id>!g;
-    }
+use CPAN;
+no warnings 'redefine';
+local *CPAN::Shell::myprint = sub { };
+CPAN::HandleConfig->load;
+
+__PACKAGE__->init(
+    $INC{'CPAN/MyConfig.pm'} || $INC{'CPAN/Config.pm'}
+    ? { names => join ' ',
+        map { y/-/_/; $_ } map $_->{ID},
+        $CPAN::META->all_objects('CPAN::Author')
+        }
+    : ()    # read from __DATA__
 );
 
 1;
@@ -32,6 +38,14 @@ Philippe Bruhat (BooK).
 =head1 CHANGES
 
 =over 4
+
+=item *
+
+2012-11-12 - v1.010
+
+Updated to use CPAN.pm to obtain the list of PAUSE ID. If CPAN.pm is
+not configured it will fallback to the hardcoded list from version 1.009.
+Published in Acme-MetaSyntactic-Themes version 1.027.
 
 =item *
 
