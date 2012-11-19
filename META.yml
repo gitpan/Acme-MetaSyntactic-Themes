@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.027
+    version: 1.028
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -93,6 +93,9 @@ provides:
   Acme::MetaSyntactic::counting_rhyme:
     file: lib/Acme/MetaSyntactic/counting_rhyme.pm
     version: 1.001
+  Acme::MetaSyntactic::counting_to_one:
+    file: lib/Acme/MetaSyntactic/counting_to_one.pm
+    version: 1.000
   Acme::MetaSyntactic::crypto:
     file: lib/Acme/MetaSyntactic/crypto.pm
     version: 1.000
@@ -182,7 +185,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::linux:
     file: lib/Acme/MetaSyntactic/linux.pm
-    version: 1.008
+    version: 1.009
   Acme::MetaSyntactic::loremipsum:
     file: lib/Acme/MetaSyntactic/loremipsum.pm
     version: 1.001
@@ -260,7 +263,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pm_groups:
     file: lib/Acme/MetaSyntactic/pm_groups.pm
-    version: 1.006
+    version: 1.007
   Acme::MetaSyntactic::pokemon:
     file: lib/Acme/MetaSyntactic/pokemon.pm
     version: 1.002
@@ -275,7 +278,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pornstars:
     file: lib/Acme/MetaSyntactic/pornstars.pm
-    version: 1.008
+    version: 1.009
   Acme::MetaSyntactic::pumpkings:
     file: lib/Acme/MetaSyntactic/pumpkings.pm
     version: 1.000
@@ -405,4 +408,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.027
+version: 1.028
