@@ -2,20 +2,22 @@ package Acme::MetaSyntactic::pause_id;
 use strict;
 use Acme::MetaSyntactic::List;
 our @ISA     = qw( Acme::MetaSyntactic::List );
-our $VERSION = '1.011';
+our $VERSION = '1.012';
 
-use CPAN;
-no warnings 'redefine';
-local *CPAN::Shell::myprint = sub { };
-eval { CPAN::HandleConfig->load; };
-
-__PACKAGE__->init(
-    $INC{'CPAN/MyConfig.pm'} || $INC{'CPAN/Config.pm'}
-    ? { names => join ' ',
+my $names = eval {
+    require CPAN;
+    no warnings 'redefine';
+    local *CPAN::Shell::myprint          = sub { };
+    local *CPAN::Shell::print_ornamented = sub { };
+    CPAN::HandleConfig->load;
+    {   names => join ' ',
         map { y/-/_/; $_ } map $_->{ID},
         $CPAN::META->all_objects('CPAN::Author')
-        }
-    : ()    # read from __DATA__
+    };
+};
+
+__PACKAGE__->init(
+    $names || ()    # read from __DATA__
 );
 
 1;
@@ -39,6 +41,14 @@ Philippe Bruhat (BooK).
 =head1 CHANGES
 
 =over 4
+
+=item *
+
+2013-02-18 - v1.012
+
+Made even more resistant to L<CPAN> errors. In case of such errors,
+the module will be quiet, and slow to start.
+Published in Acme-MetaSyntactic-Themes version 1.030.
 
 =item *
 
