@@ -2,23 +2,22 @@ package Acme::MetaSyntactic::pause_id;
 use strict;
 use Acme::MetaSyntactic::List;
 our @ISA     = qw( Acme::MetaSyntactic::List );
-our $VERSION = '1.012';
+our $VERSION = '1.013';
 
 my $names = eval {
     require CPAN;
+    require CPAN::FirstTime;
     no warnings 'redefine';
     local *CPAN::Shell::myprint          = sub { };
     local *CPAN::Shell::print_ornamented = sub { };
+    local *CPAN::FirstTime::init         = sub { };
     CPAN::HandleConfig->load;
-    {   names => join ' ',
-        map { y/-/_/; $_ } map $_->{ID},
+    join ' ', map { y/-/_/; $_ } map $_->{ID},
         $CPAN::META->all_objects('CPAN::Author')
-    };
 };
 
-__PACKAGE__->init(
-    $names || ()    # read from __DATA__
-);
+# read from __DATA__ if CPAN.pm didn't return anything
+__PACKAGE__->init( $names ? { names => $names } : () );
 
 1;
 
@@ -41,6 +40,13 @@ Philippe Bruhat (BooK).
 =head1 CHANGES
 
 =over 4
+
+=item *
+
+2013-03-25 - v1.013
+
+Fixed issues that L<CPAN> was still causing (mostly under Win32).
+Published in Acme-MetaSyntactic-Themes version 1.031.
 
 =item *
 
