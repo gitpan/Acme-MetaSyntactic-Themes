@@ -2,7 +2,7 @@ package Acme::MetaSyntactic::haddock;
 use strict;
 use Acme::MetaSyntactic::Locale;
 our @ISA = qw( Acme::MetaSyntactic::Locale );
-our $VERSION = '1.001';
+our $VERSION = '1.002';
 __PACKAGE__->init();
 1;
 
@@ -36,6 +36,13 @@ Jan Pieter Cornet provided the Dutch list.
 =head1 CHANGES
 
 =over 4
+
+=item *
+
+2013-06-03 - v1.002
+
+Fixed a spelling error in the English list.
+Published in Acme-MetaSyntactic-Themes version 1.032.
 
 =item *
 
@@ -176,7 +183,7 @@ Meddlesome_cabin_boy Megalomaniac Miserable_blundering_barbecued_blister
 Miserable_earthworms Miserable_earth_worms Miserable_miser
 Miserable_molecule_of_mildew Misguided_missles Mister_Mule Monopolizers
 Monster Morons Moth_eaten_marmot Moujik Moujiks Mountebanks
-Mserable_blundering_barbequed_blister Mule Musical_morons Nanny_goat
+Miserable_blundering_barbequed_blister Mule Musical_morons Nanny_goat
 Nincompoop Nitwits Nitwitted_ninepins Nitwitted_nine_pins Numbskulls
 Nyctalop Nyctalops Odd_toed_ungulate Olympic_Athlete Ophicleides
 Orangoutang Ostrogoth Pachyrhizus Paranoiac Parasites Patagonian
