@@ -2,7 +2,7 @@ package Acme::MetaSyntactic::dilbert;
 use strict;
 use Acme::MetaSyntactic::List;
 our @ISA = qw( Acme::MetaSyntactic::List );
-our $VERSION = '1.003';
+our $VERSION = '1.004';
 __PACKAGE__->init();
 
 our %Remote = (
@@ -41,6 +41,12 @@ Sébastien Aperghis-Tramoni.
 
 =item *
 
+2013-06-17 - v1.004
+
+Updated from the source web site in Acme-MetaSyntactic-Themes version 1.033.
+
+=item *
+
 2013-06-03 - v1.003
 
 Updated from the source web site in Acme-MetaSyntactic-Themes version 1.032.
@@ -64,92 +70,92 @@ Updated from the source web site in Acme-MetaSyntactic-Themes version 1.018.
 Updated with new additions since November 2006, and
 received its own version number in Acme-MetaSyntactic-Themes version 1.000.
 
-=item * 
+=item *
 
 2006-10-30
 
 Updated from the source web site in Acme-MetaSyntactic version 0.98.
 
-=item * 
+=item *
 
 2006-10-23
 
 Updated from the source web site in Acme-MetaSyntactic version 0.97.
 
 
-=item * 
+=item *
 
 2006-09-18
 
 Updated from the source web site in Acme-MetaSyntactic version 0.92.
 
-=item * 
+=item *
 
 2006-09-11
 
 Updated from the source web site in Acme-MetaSyntactic version 0.91.
 
-=item * 
+=item *
 
 2006-08-26
 
 Updated from the source web site in Acme-MetaSyntactic version 0.89.
 
-=item * 
+=item *
 
 2006-07-10
 
 Updated from the source web site in Acme-MetaSyntactic version 0.82.
 
-=item * 
+=item *
 
 2006-07-03
 
 Updated from the source web site in Acme-MetaSyntactic version 0.81.
 
-=item * 
+=item *
 
 2006-06-26
 
 Updated from the source web site in Acme-MetaSyntactic version 0.80.
 
-=item * 
+=item *
 
 2006-06-12
 
 Updated from the source web site in Acme-MetaSyntactic version 0.78.
 
-=item * 
+=item *
 
 2006-04-03
 
 Updated from the source web site in Acme-MetaSyntactic version 0.68.
 
-=item * 
+=item *
 
 2006-02-06
 
 Updated from the source web site in Acme-MetaSyntactic version 0.60.
 
-=item * 
+=item *
 
 2006-01-16
 
 Updated from the source web site in Acme-MetaSyntactic version 0.57.
 
-=item * 
+=item *
 
 2005-12-19
 
 Updated from the source web site in Acme-MetaSyntactic version 0.53.
 
-=item * 
+=item *
 
 2005-12-12
 
 Updated from the source web site in Acme-MetaSyntactic version 0.52.
 
-=item * 
+=item *
 
 2005-12-05
 
@@ -220,7 +226,7 @@ tex flashy petricia tim_zumph earl lefty sourpuss wendel_j_stone_iv
 vijay exactly_man alan andy
 lou mister_serdecisions sandeep
 patty smokin_jim betty_the_bulldozer
-amber_dextrous stinky_pete 
+amber_dextrous stinky_pete
 phil_o_dendron
 steve
 lyin_john
@@ -235,3 +241,4 @@ ronald rubbin_robin ruth sarah scott shelly silent_gary sue_boysenberry
 tom_jackson trixie victor vlad wolfgang
 jb_hopper
 stanky_bathurd
+wulf
