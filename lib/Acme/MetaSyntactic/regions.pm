@@ -2,7 +2,7 @@ package Acme::MetaSyntactic::regions;
 use strict;
 use Acme::MetaSyntactic::MultiList;
 our @ISA     = qw( Acme::MetaSyntactic::MultiList);
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 __PACKAGE__->init();
 
 1;
@@ -35,7 +35,14 @@ Abigail, Philippe Bruhat (BooK).
 
 =item *
 
-2012-10-22
+2013-07-29 - v1.001
+
+Abigail cleaned up the US list and added US uninhabited territories,
+in Acme-MetaSyntactic-Themes version 1.035.
+
+=item *
+
+2013-10-22 - v1.000
 
 Introduced in Acme-MetaSyntactic-Themes version 1.024.
 
@@ -1359,17 +1366,18 @@ Baker_Island Howland_Island Jarvis_Island Johnston_Atoll Kingman_Reef
 Midway_Islands Navassa_Island Palmyra_Atoll Wake_Island
 
 # names us
-Alabama Alaska American_Samoa American_Samoa Arizona Arkansas California
+Alabama Alaska American_Samoa Arizona Arkansas California
 Colorado Connecticut Delaware District_of_Columbia Florida Georgia Guam
-Guam Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine
+Hawaii Idaho Illinois Indiana Iowa Kansas Kentucky Louisiana Maine
 Maryland Massachusetts Michigan Minnesota Mississippi Missouri Montana
 Nebraska Nevada New_Hampshire New_Jersey New_Mexico New_York
 North_Carolina North_Dakota Northern_Mariana_Islands
-Northern_Mariana_Islands Ohio Oklahoma Oregon Pennsylvania Puerto_Rico
-Puerto_Rico Rhode_Island South_Carolina South_Dakota Tennessee Texas
-United_States_Minor_Outlying_Islands
+Ohio Oklahoma Oregon Pennsylvania Puerto_Rico
+Rhode_Island South_Carolina South_Dakota Tennessee Texas
 United_States_Minor_Outlying_Islands Utah Vermont Virgin_Islands_US
-Virgin_Islands_US Virginia Washington West_Virginia Wisconsin Wyoming
+Virginia Washington West_Virginia Wisconsin Wyoming
+Baker_Island Howland_Island Jarvis_Island Johnston_Atoll Kingman_Reef
+Midway_Atoll Navassa_Island Palmyra_Atoll Wake_Island
 
 # names uy
 Artigas Canelones Cerro_Largo Colonia Durazno Flores Florida Lavalleja

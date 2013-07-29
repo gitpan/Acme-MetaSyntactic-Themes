@@ -2,7 +2,7 @@ package Acme::MetaSyntactic::yapc;
 use strict;
 use Acme::MetaSyntactic::MultiList;
 our @ISA = qw( Acme::MetaSyntactic::MultiList );
-our $VERSION = '1.002';
+our $VERSION = '1.003';
 __PACKAGE__->init();
 1;
 
@@ -28,7 +28,7 @@ The various YAPC are:
 Pittsburgh (1999, 2000), Montreal (2001), Saint-Louis (2002),
 Boca Raton (2003), Buffalo (2004), Toronto (2005), Chicago (2006),
 Houston (2007), Chicago (2008), Pittsburgh (2009), Columbus (2010),
-Asheville (2011), Madison (2012), Austin (2013).
+Asheville (2011), Madison (2012), Austin (2013), Orlando (2014).
 
 =item YAPC::Europe
 
@@ -57,7 +57,7 @@ and has been held jointly thereafter.
 =item YAPC::Brazil
 
 Porto Alegre (2005-2006), São Paulo (2007, 2008), Rio de Janeiro (2009),
-Fortaleza (2010), Rio de Janeiro (2011), São Paulo (2012).
+Fortaleza (2010), Rio de Janeiro (2011), São Paulo (2012), Curitiba (2013).
 
 =item YAPC::Taipei
 
@@ -96,6 +96,13 @@ Mark Fowler, Philippe Bruhat (BooK), Abigail.
 =head1 CHANGES
 
 =over 4
+
+=item *
+
+2013-07-29 - v1.003
+
+Updated by Abigail with the locations for YAPC::NA and YAPC::Brazil for 2013
+in Acme-MetaSyntactic-Themes version 1.035.
 
 =item *
 
@@ -173,7 +180,7 @@ __DATA__
 :all
 # names america north
 Pittsburgh Montreal Saint_Louis Boca_Raton Buffalo Toronto Chicago Houston
-Chicago Pittsburgh Columbus Asheville Madison Austin
+Chicago Pittsburgh Columbus Asheville Madison Austin Orlando
 # names europe
 London Amsterdam Munich Paris Belfast Braga Birmingham Vienna Copenhagen
 Lisbon Pisa Riga Frankfurt
@@ -187,6 +194,7 @@ Melbourne
 Taipei
 # names brazil
 Porto_Alegre Sao_Paulo Rio_de_Janeiro Fortaleza Rio_de_Janeiro Sao_Paulo
+Curitiba
 # names asia
 Tokyo
 # names america south
