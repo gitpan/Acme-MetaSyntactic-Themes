@@ -1,8 +1,8 @@
 package Acme::MetaSyntactic::olympics;
 use strict;
-use Acme::MetaSyntactic::List;
-our @ISA = qw( Acme::MetaSyntactic::List );
-our $VERSION = '1.001';
+use Acme::MetaSyntactic::MultiList;
+our @ISA = qw( Acme::MetaSyntactic::MultiList );
+our $VERSION = '1.002';
 
 =head1 NAME
 
@@ -13,39 +13,24 @@ Acme::MetaSyntactic::olympics - Olympic cities theme
 This theme lists the cities who have hosted, or will host, Olympic Games.
 Cities for both the Summer and Winter games are listed.
 
-The list comes from L<http://www.olympic.org/>.
+The list was originally fetched from L<http://www.olympic.org/>.
 
-The following cities have held, or will hold, the Olympic games.
+The following cities have held, or will hold, the Olympic games:
 
 =cut
 
-our %Remote = (
-    source  =>  'http://www.olympic.org/uk/games/index_uk.asp',
-    extract =>  sub {
-        local $_ = shift;
-        s/(Garmisch-)<br>\s+/$1/;
-        my @names   =  m{<a \s+ class="(?:summer|winter)" \s+ [^>]+>
-                                                 (\w[\w\s\-'.]+\w)\s+\d+</a>}gx;
-        push @names => m{<img[^>]+>&nbsp;<a[^>]+>(\w[\w\s\-'.]+\w)\s+\d+</a>}g;
-
-        my %seen;
-        map {s/\W+/_/g; $_} grep {!$seen {$_} ++} @names;
-    }
-);
-
 {
-    my %seen;
-    my $data = join " " =>
-               grep {!$seen {$_} ++}
-               map  {s/\W+/_/g; $_}
-               map  {/^\s+\d+\s+(.+)$/ ? $1 : ()}
-               split /\n/ => <<'=cut';
+    my $data;
+    my $season;
+
+    for my $line ( split /\n/ => <<'=cut' ) {
 
 =pod
 
     Summer Games
     ============
 
+    2020   Tokyo
     2016   Rio de Janeiro
     2012   London
     2008   Beijing
@@ -71,7 +56,7 @@ our %Remote = (
     1920   Antwerp
     1912   Stockholm
     1908   London
-    1904   St. Louis
+    1904   Saint-Louis
     1900   Paris
     1896   Athens
 
@@ -97,16 +82,24 @@ our %Remote = (
     1960   Squaw Valley
     1956   Cortina d'Ampezzo
     1952   Oslo
-    1948   St. Moritz
+    1948   Saint-Moritz
     1936   Garmisch-Partenkirchen
     1932   Lake Placid
-    1928   St. Moritz
+    1928   Saint-Moritz
     1924   Chamonix
 
 =cut
 
-__PACKAGE__->init( { names => $data } );
+        $season = lc $1 and next if $line =~ /(\w+) Games/;
+        next if $line !~ /^\s+(\d+)\s+(.*)/;
+        my ( $year, $city ) = ( $1, $2 );
+        $city =~ s/\W+/_/g;
+        $data->{names}{$year}{$season} = $city;
+        $data->{names}{$season}{$year} = $city;
+    }
+    $data->{default} = ':all';
 
+    __PACKAGE__->init($data);
 }
 
 1;
@@ -120,6 +113,14 @@ Abigail, Philippe Bruhat.
 =head1 CHANGES
 
 =over 4
+
+=item *
+
+2013-09-16 - v1.002
+
+Turned into a multilist, with all combinations of year and seasons
+as categories and the location for the 2020 summer olympics
+in Acme-MetaSyntactic-Themes version 1.036.
 
 =item *
 
