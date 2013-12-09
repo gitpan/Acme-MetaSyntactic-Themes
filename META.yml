@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.037
+    version: 1.038
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -50,7 +50,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::ben_and_jerry:
     file: lib/Acme/MetaSyntactic/ben_and_jerry.pm
-    version: 1.008
+    version: 1.009
   Acme::MetaSyntactic::bible:
     file: lib/Acme/MetaSyntactic/bible.pm
     version: 1.000
@@ -122,7 +122,7 @@ provides:
     version: 1.003
   Acme::MetaSyntactic::dwarves:
     file: lib/Acme/MetaSyntactic/dwarves.pm
-    version: 1.001
+    version: 1.002
   Acme::MetaSyntactic::elements:
     file: lib/Acme/MetaSyntactic/elements.pm
     version: 1.002
@@ -167,10 +167,10 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::iata:
     file: lib/Acme/MetaSyntactic/iata.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::icao:
     file: lib/Acme/MetaSyntactic/icao.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::invasions:
     file: lib/Acme/MetaSyntactic/invasions.pm
     version: 1.000
@@ -185,7 +185,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::linux:
     file: lib/Acme/MetaSyntactic/linux.pm
-    version: 1.018
+    version: 1.019
   Acme::MetaSyntactic::loremipsum:
     file: lib/Acme/MetaSyntactic/loremipsum.pm
     version: 1.001
@@ -221,7 +221,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::nobel_prize:
     file: lib/Acme/MetaSyntactic/nobel_prize.pm
-    version: 1.001
+    version: 1.002
   Acme::MetaSyntactic::norse_mythology:
     file: lib/Acme/MetaSyntactic/norse_mythology.pm
     version: 1.001
@@ -263,10 +263,10 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pm_groups:
     file: lib/Acme/MetaSyntactic/pm_groups.pm
-    version: 1.016
+    version: 1.017
   Acme::MetaSyntactic::pokemon:
     file: lib/Acme/MetaSyntactic/pokemon.pm
-    version: 1.002
+    version: 1.003
   Acme::MetaSyntactic::pooh:
     file: lib/Acme/MetaSyntactic/pooh.pm
     version: 1.000
@@ -278,7 +278,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pornstars:
     file: lib/Acme/MetaSyntactic/pornstars.pm
-    version: 1.017
+    version: 1.018
   Acme::MetaSyntactic::pumpkings:
     file: lib/Acme/MetaSyntactic/pumpkings.pm
     version: 1.000
@@ -392,7 +392,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::wales_towns:
     file: lib/Acme/MetaSyntactic/wales_towns.pm
-    version: 1.003
+    version: 1.004
   Acme::MetaSyntactic::weekdays:
     file: lib/Acme/MetaSyntactic/weekdays.pm
     version: 1.000
@@ -408,4 +408,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.037
+version: 1.038
