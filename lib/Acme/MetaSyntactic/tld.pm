@@ -2,7 +2,7 @@ package Acme::MetaSyntactic::tld;
 use strict;
 use Acme::MetaSyntactic::MultiList;
 our @ISA = qw( Acme::MetaSyntactic::MultiList );
-our $VERSION = '1.002';
+our $VERSION = '1.003';
 __PACKAGE__->init();
 
 our %Remote = (
@@ -10,7 +10,7 @@ our %Remote = (
     extract => sub {
         ( my $type = $_[1]) =~ y/_/-/;
         local $/;
-        my %type = $_[0] =~ m{<td><a href="/domains/root/db/(\w+).html">.\w+</a></td>\s+<td>([^<]+)</td>\s+<!-- <td>(?:[^<\n]*)}g;
+        my %type = $_[0] =~ m{<td><span class="domain tld"><a href="/domains/root/db/(\w+).html">.\w+</a></span></td>\s+<td>([^<]+)</td>\s+<!-- <td>(?:[^<\n]*)}g;
         return grep $type{$_} eq $type, keys %type;
     },
 );
@@ -28,6 +28,9 @@ The list of top-level domainnames.
 The source for the list is
 L<http://www.iana.org/domains/root/db/>.
 
+Note that this list contains only the ASCII top-level domains, and not the
+internationalized ones.
+
 =head1 CONTRIBUTORS
 
 Scott Lanning, Philippe Bruhat (BooK).
@@ -35,6 +38,13 @@ Scott Lanning, Philippe Bruhat (BooK).
 =head1 CHANGES
 
 =over 4
+
+=item *
+
+2014-08-18 - v1.003
+
+Addition of 338 (!) generic top-level domain names
+in Acme-MetaSyntactic-Themes version 1.041.
 
 =item *
 
@@ -90,6 +100,52 @@ sz tc td tf tg th tj tk tl tm tn to tp tr tt tv tw tz ua ug uk um us uy
 uz va vc ve vg vi vn vu wf ws ye yt za zm zw
 # names generic
 com info net org
+academy accountants active actor agency airforce archi army associates
+attorney auction audio autos axa
+bar bargains bayern beer berlin best bid bike bio black blackfriday blue
+bmw bnpparibas boutique brussels build builders buzz bzh
+cab camera camp cancerresearch capetown capital caravan cards care career
+careers cash catering center ceo cern cheap christmas church citic city
+claims cleaning click clinic clothing club codes coffee college cologne
+community company computer condos construction consulting contractors
+cooking cool country credit creditcard cruises cuisinella cymru
+dance dating deals degree democrat dental dentist desi diamonds diet
+digital direct directory discount dnp domains durban
+education email engineer engineering enterprises equipment estate eus
+events exchange expert exposed
+fail farm feedback finance financial fish fishing fitness flights florist
+foo foundation frogans fund furniture futbol
+gal gallery gent gift gifts gives glass global globo gmo gop graphics
+gratis green gripe guide guitars guru
+hamburg haus healthcare help hiphop hiv holdings holiday homes horse
+host hosting house how
+immobilien industries ink institute insure international investments
+jetzt joburg juegos
+kaufen kim kitchen kiwi koeln krd kred
+lacaixa land lawyer lease lgbt life lighting limited limo link loans
+london lotto ltda luxe luxury
+maison management mango market marketing media meet melbourne menu miami
+mini moda moe monash mortgage moscow motorcycles
+nagoya navy neustar ngo nhk ninja nra nrw nyc
+okinawa onl ooo organic ovh
+paris partners parts photo photography photos physio pics pictures pink
+place plumbing praxi press productions properties property pub
+qpon quebec
+realtor recipes red rehab reise reisen ren rentals repair report
+republican rest restaurant reviews rich rio rocks rodeo ruhr ryukyu
+saarland sarl sca scb schmidt schule scot services sexy shiksha shoes
+singles social software sohu solar solutions soy space spiegel supplies
+supply support surf surgery suzuki systems
+tatar tattoo tax technology tienda tips tirol today tokyo tools top town
+toys trade training
+university uno uol
+vacations vegas ventures versicherung vet viajes villas vision vlaanderen
+vodka vote voting voto voyage
+wales wang watch webcam website wed whoswho wien wiki williamhill works
+wtc wtf
+xyz
+yachts yandex yokohama
+zone
 # names generic_restricted
 biz name pro
 # names infrastructure

@@ -4,7 +4,7 @@
       "Philippe Bruhat (BooK) <book@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4204",
+   "generated_by" : "Module::Build version 0.4207",
    "license" : [
       "perl_5"
    ],
@@ -35,7 +35,7 @@
    "provides" : {
       "Acme::MetaSyntactic::Themes" : {
          "file" : "lib/Acme/MetaSyntactic/Themes.pm",
-         "version" : "1.040"
+         "version" : "1.041"
       },
       "Acme::MetaSyntactic::abba" : {
          "file" : "lib/Acme/MetaSyntactic/abba.pm",
@@ -259,7 +259,7 @@
       },
       "Acme::MetaSyntactic::linux" : {
          "file" : "lib/Acme/MetaSyntactic/linux.pm",
-         "version" : "1.021"
+         "version" : "1.022"
       },
       "Acme::MetaSyntactic::loremipsum" : {
          "file" : "lib/Acme/MetaSyntactic/loremipsum.pm",
@@ -291,7 +291,7 @@
       },
       "Acme::MetaSyntactic::metro" : {
          "file" : "lib/Acme/MetaSyntactic/metro.pm",
-         "version" : "1.002"
+         "version" : "1.003"
       },
       "Acme::MetaSyntactic::monty_spam" : {
          "file" : "lib/Acme/MetaSyntactic/monty_spam.pm",
@@ -363,7 +363,7 @@
       },
       "Acme::MetaSyntactic::pm_groups" : {
          "file" : "lib/Acme/MetaSyntactic/pm_groups.pm",
-         "version" : "1.019"
+         "version" : "1.020"
       },
       "Acme::MetaSyntactic::pokemon" : {
          "file" : "lib/Acme/MetaSyntactic/pokemon.pm",
@@ -383,7 +383,7 @@
       },
       "Acme::MetaSyntactic::pornstars" : {
          "file" : "lib/Acme/MetaSyntactic/pornstars.pm",
-         "version" : "1.020"
+         "version" : "1.021"
       },
       "Acme::MetaSyntactic::pumpkings" : {
          "file" : "lib/Acme/MetaSyntactic/pumpkings.pm",
@@ -435,7 +435,7 @@
       },
       "Acme::MetaSyntactic::services" : {
          "file" : "lib/Acme/MetaSyntactic/services.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::shadok" : {
          "file" : "lib/Acme/MetaSyntactic/shadok.pm",
@@ -495,7 +495,7 @@
       },
       "Acme::MetaSyntactic::tld" : {
          "file" : "lib/Acme/MetaSyntactic/tld.pm",
-         "version" : "1.002"
+         "version" : "1.003"
       },
       "Acme::MetaSyntactic::tmnt" : {
          "file" : "lib/Acme/MetaSyntactic/tmnt.pm",
@@ -503,7 +503,7 @@
       },
       "Acme::MetaSyntactic::tokipona" : {
          "file" : "lib/Acme/MetaSyntactic/tokipona.pm",
-         "version" : "1.000"
+         "version" : "1.001"
       },
       "Acme::MetaSyntactic::tour_de_france" : {
          "file" : "lib/Acme/MetaSyntactic/tour_de_france.pm",
@@ -559,5 +559,5 @@
          "url" : "http://github.com/book/Acme-MetaSyntactic-Themes"
       }
    },
-   "version" : "1.040"
+   "version" : "1.041"
 }

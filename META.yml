@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   Module::Build: 0.42
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4204, CPAN::Meta::Converter version 2.133380'
+generated_by: 'Module::Build version 0.4207, CPAN::Meta::Converter version 2.133380'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.040
+    version: 1.041
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -185,7 +185,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::linux:
     file: lib/Acme/MetaSyntactic/linux.pm
-    version: 1.021
+    version: 1.022
   Acme::MetaSyntactic::loremipsum:
     file: lib/Acme/MetaSyntactic/loremipsum.pm
     version: 1.001
@@ -209,7 +209,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::metro:
     file: lib/Acme/MetaSyntactic/metro.pm
-    version: 1.002
+    version: 1.003
   Acme::MetaSyntactic::monty_spam:
     file: lib/Acme/MetaSyntactic/monty_spam.pm
     version: 1.000
@@ -263,7 +263,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pm_groups:
     file: lib/Acme/MetaSyntactic/pm_groups.pm
-    version: 1.019
+    version: 1.020
   Acme::MetaSyntactic::pokemon:
     file: lib/Acme/MetaSyntactic/pokemon.pm
     version: 1.005
@@ -278,7 +278,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pornstars:
     file: lib/Acme/MetaSyntactic/pornstars.pm
-    version: 1.020
+    version: 1.021
   Acme::MetaSyntactic::pumpkings:
     file: lib/Acme/MetaSyntactic/pumpkings.pm
     version: 1.000
@@ -317,7 +317,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::services:
     file: lib/Acme/MetaSyntactic/services.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::shadok:
     file: lib/Acme/MetaSyntactic/shadok.pm
     version: 1.000
@@ -362,13 +362,13 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::tld:
     file: lib/Acme/MetaSyntactic/tld.pm
-    version: 1.002
+    version: 1.003
   Acme::MetaSyntactic::tmnt:
     file: lib/Acme/MetaSyntactic/tmnt.pm
     version: 1.001
   Acme::MetaSyntactic::tokipona:
     file: lib/Acme/MetaSyntactic/tokipona.pm
-    version: 1.000
+    version: 1.001
   Acme::MetaSyntactic::tour_de_france:
     file: lib/Acme/MetaSyntactic/tour_de_france.pm
     version: 1.005
@@ -408,4 +408,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.040
+version: 1.041
