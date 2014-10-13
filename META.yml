@@ -17,7 +17,7 @@ name: Acme-MetaSyntactic-Themes
 provides:
   Acme::MetaSyntactic::Themes:
     file: lib/Acme/MetaSyntactic/Themes.pm
-    version: 1.042
+    version: 1.043
   Acme::MetaSyntactic::abba:
     file: lib/Acme/MetaSyntactic/abba.pm
     version: 1.000
@@ -185,7 +185,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::linux:
     file: lib/Acme/MetaSyntactic/linux.pm
-    version: 1.023
+    version: 1.024
   Acme::MetaSyntactic::loremipsum:
     file: lib/Acme/MetaSyntactic/loremipsum.pm
     version: 1.001
@@ -221,7 +221,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::nobel_prize:
     file: lib/Acme/MetaSyntactic/nobel_prize.pm
-    version: 1.002
+    version: 1.003
   Acme::MetaSyntactic::norse_mythology:
     file: lib/Acme/MetaSyntactic/norse_mythology.pm
     version: 1.001
@@ -278,7 +278,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::pornstars:
     file: lib/Acme/MetaSyntactic/pornstars.pm
-    version: 1.022
+    version: 1.023
   Acme::MetaSyntactic::pumpkings:
     file: lib/Acme/MetaSyntactic/pumpkings.pm
     version: 1.000
@@ -317,7 +317,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::services:
     file: lib/Acme/MetaSyntactic/services.pm
-    version: 1.001
+    version: 1.002
   Acme::MetaSyntactic::shadok:
     file: lib/Acme/MetaSyntactic/shadok.pm
     version: 1.000
@@ -362,7 +362,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::tld:
     file: lib/Acme/MetaSyntactic/tld.pm
-    version: 1.004
+    version: 1.005
   Acme::MetaSyntactic::tmnt:
     file: lib/Acme/MetaSyntactic/tmnt.pm
     version: 1.001
@@ -398,7 +398,7 @@ provides:
     version: 1.000
   Acme::MetaSyntactic::yapc:
     file: lib/Acme/MetaSyntactic/yapc.pm
-    version: 1.003
+    version: 1.004
   Acme::MetaSyntactic::zodiac:
     file: lib/Acme/MetaSyntactic/zodiac.pm
     version: 1.000
@@ -408,4 +408,4 @@ requires:
 resources:
   license: http://dev.perl.org/licenses/
   repository: http://github.com/book/Acme-MetaSyntactic-Themes
-version: 1.042
+version: 1.043
